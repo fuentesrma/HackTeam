@@ -1,0 +1,330 @@
+/*------------Related posts--------*/
+#related-posts{
+	margin-top:30px;
+}
+#related-posts .flexslider{
+	margin-bottom:0 !important;
+}
+#related-posts .item{
+	padding-bottom:0px;
+}
+/*-----------Author Bio--------*/
+.single-post .hentry #author {
+  background:  #f7f6f5;
+  padding: 15px;
+}
+.single-post .hentry #author h4.heading {
+  font-size: 15px;
+  position: relative;
+  top: 6px;
+}
+.single-post .hentry #author .top{
+  background: url("../images/hor_dash.png") repeat-x center bottom;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.single-post .hentry #author .meta span.icon {
+  margin-left: 3px;
+}
+.single-post .hentry #author .meta span.icon a {
+  background: url("images/sprites.png") no-repeat;
+  display: inline-block;
+  height: 25px;
+  
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+	
+  text-indent: -9999px;
+  width: 25px;
+}
+.single-post .hentry #author .meta .twitter a {
+    background-position: 0 -366px !important;
+}
+.single-post .hentry #author .meta .facebook a {
+    background-position: 0 -338px !important;
+}
+.single-post .hentry #author .image {
+  float: left;
+  margin-right: 20px;
+}
+.single-post .hentry #author .details {
+  float: left;
+  width: 480px;
+}
+.single-post .hentry #author .details h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.single-post .hentry #author .details p{
+	margin-bottom:10px;
+}
+.single-post .hentry #author .details p.meta a {
+  background:#444444;
+  border-radius: 2px;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 4px 8px;
+  text-transform: capitalize;
+}
+/*------------ Comments--------*/
+#comments,#comments h3, #respond h3,.page-template-template-contact-php h3{
+  background: url("../images/hor_dash.png") repeat-x 0 bottom;
+}
+#comments h3, #respond h3,.page-template-template-contact-php h3{
+  font-size: 20px;
+  line-height: 26px;
+  padding: 18px 0;
+  text-transform: uppercase;
+}
+p.title_bottom{
+	font-size:11px;	
+}
+#comments .comment-vcard {
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+#comments .comment-vcard img {
+  background:#333333;
+  float: left;
+  height: 60px;
+  text-indent: -9999px;
+  width: 60px;
+}
+span.author-tag {
+  background:#EEEEEE;
+  color: #9D9D9D;
+  display: inline-block;
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+}
+#comments ol, #comments ul {
+    float: left;
+}
+#comments ol ul {
+  background: url("../images/ver_dash.png") repeat-y;
+  float: left;
+  margin: 15px 0 0 30px;
+  padding: 15px 0 0 50px;
+  width: 570px;
+}
+#comments ol ul ul {
+  margin: 8px 0 0 30px;
+  width: 490px;
+}
+#comments ol ul ul ul {
+  width: 410px;
+}
+#comments ol ul ul ul ul {
+    width: 330px;
+}
+#comments ol .line {
+    display: none;
+}
+#comments ol ul .line {
+  background: url("../images/hor_dash.png") repeat-x 0 bottom;
+  display: block;
+  height: 50px;
+  margin: -15px 0 0 -50px;
+  position: absolute;
+  width: 30px;
+}
+#comments ol ul li {
+    border: medium none;
+    padding: 14px 0;
+}
+#comments ol ul .comment_detail {
+  float: left;
+  margin: 0 0 0 20px;
+  width: 490px;
+}
+#comments ol ul ul .comment_detail {
+  width: 410px;
+}
+#comments ol ul ul ul .comment_detail {
+  width: 330px;
+}
+#comments ol ul ul ul ul .comment_detail {
+    width: 250px;
+}
+#comments ol li {
+    float: left;
+    padding: 20px 0;
+}
+#comments .comment_detail {
+  float: left;
+  margin: 0 0 0 20px;
+  width: 570px;
+}
+#comments .comment-header span.date {
+    font-family: "Droid Serif",Georgia,Times,serif;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 6px;
+    text-align: left;
+}
+#comments .comment-header span.comment-date a{
+	color:#999;
+}
+#comments .comment-header .reply a {
+  background: url("../images/reply.png") no-repeat;
+  float: right;
+  height: 17px;
+  text-indent: -999px;
+  width: 16px;
+}
+#comments .comment-header .author {
+  color: #4D4A49;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#comments .comment-header {
+    margin: 0 0 10px;
+}
+#comments .comment-header span.author a {
+  color: #444444;
+  font-weight: bold;
+}
+p.nocomments {
+  border-top: 1px solid #EEE;
+  color: #444444;
+  font-weight: bold;
+  margin-left: 190px;
+  padding-top: 10px;
+}
+span.grey {
+  color: #AAAAAA !important;
+  font-size: 11px;
+  line-height: 18px;
+}
+em.moderation {
+  color: #CCCCCC;
+  display: inline-block;
+}
+.cancel-comment-reply{
+	display: inline-block;
+	margin-top: 30px;
+	width: 100%;
+}
+/*----------COMMENT FORM and Contact form-----------*/
+#respond {
+    margin-bottom: 20px;
+    padding: 0 0 20px;
+}
+#respond.contact {
+    border: medium none;
+    margin: 0;
+    padding: 0 0 20px;
+}
+#respond form {
+    margin: 20px 0 0;
+    width: 100%;
+}
+#respond.contact h1 {
+    color: #2387D9;
+    margin-bottom: 20px;
+}
+#respond.contact form, #contactForm{
+    margin: 0;
+    width: 100%;
+}
+#respond p.comment-form-author, #respond p.comment-form-email{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    width: 45%;
+}
+#respond .form-submit,#respond .comment-form-comment{
+	display:inline-block;
+	width:100%;
+}
+#respond .form-submit input{
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+#respond .form-submit input:hover{
+    background:#353535;
+}
+#respond #commentform li.buttons, #respond #commentform li.buttons p {
+    margin-bottom: 0;
+    width: 100%;
+}
+#respond p.comment-form-author input, #respond p.comment-form-email input{
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 2px 0 #F1F1F1 inset;
+    display: block;
+    margin: 0 10px 0 0;
+    padding: 8px 0;
+    position: relative;
+    width: 100%;
+}
+#respond textarea{
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 2px 0 #F1F1F1 inset;
+    float: left;
+    height: 250px;
+    width: 99%;
+}
+#respond label {
+    color: #4D4A49;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#respond p span.required {
+    color: #FF0000;
+    margin-left: 2px;
+}
+/*-----------Social sharing ------------*/
+.single .row{
+	overflow:visible;
+}
+.social-buttons {
+  border-top: 1px solid #E4E4E4;
+  display: block;
+  margin-bottom: 10px;
+  padding: 20px 0 7px;
+  text-align: center;
+}
+.social-buttons > li {
+    float: left;
+    margin-left: 25px;
+}
+.social-buttons > li:last-child {
+    margin-left: 0;
+}
+.social-buttons > li.custom a {
+    font-weight: bold;
+    line-height: 6px;
+    margin-left: 4px;
+    padding-left: 9px;
+    width: 16px;
+}
+.social-buttons > li.icons a {
+    background: url("../images/sharing.png") no-repeat;
+    display: inline-block;
+}
+.social-buttons > li.print_post a {
+    background-position: 0 -38px;
+    height: 22px;
+    line-height: 24px;
+    padding: 0 0 0 21px;
+}
+.social-buttons > li.email a {
+    background-position: 0 -22px;
+    line-height: 13px;
+    padding-left: 21px;
+    position: relative;
+}
