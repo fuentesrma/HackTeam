@@ -1,0 +1,3088 @@
+amarillo = #f8c438 
+azul = #008fd5
+
+color_texto =  #66757F
+getjob_color=#1ba0e1
+gris_claro=#f8f8f8
+naranja = #ff4900
+naranja_claro = #F4502A
+rojo = #e74c3c
+verde = #3f990f
+verde_claro = #2ecc71
+azul_claro = #22bce0
+gris_azulado = #E1E8ED
+
+/*color_texto = #757575*/
+
+/*INICIAN ESTILOS CSS GENERALES*/
+body
+	background #E1E8ED
+	font-family 'Open Sans','Arial','Sans-serif'
+	font-size 16px
+
+.foot_index
+	bottom 0
+
+footer
+.foot_index
+	background #3B95D1
+	color rgba(white, 0.5)
+	text-align center
+	width 100%
+	
+
+	.about_us
+		background #07749f
+		margin 0
+		max-width 100%
+		padding-left 0
+		position relative
+
+		li
+			display inline-block
+			padding 0.5em
+			position relative
+			
+			a
+				color white
+				text-decoration none
+
+				&:hover
+					text-decoration underline
+
+	h3
+		font-size 14px
+		font-weight normal
+		margin 0
+		padding-bottom 1em
+
+		strong
+			display block
+
+		.footer_text
+			&:before
+			&:after
+				content " - "
+
+nav
+	background white
+	box-shadow 0 1px 0 rgba(0,0,0,0.2)
+	box-sizing border-box
+	height 60px
+	position fixed
+	text-align center
+	top 0
+	width 100%
+	z-index 200
+
+	.menu_principal
+		height 77px
+		line-height 60px
+		margin 0 auto
+		max-width 1200px
+		overflow-x auto
+		padding 0
+		white-space nowrap
+
+		&::-webkit-scrollbar
+			display none
+
+		.logo
+			border-bottom none
+
+			a
+				font-size 17px
+
+				img 
+					margin 0 auto
+					margin-right 0.5em
+					position relative
+					vertical-align middle
+					width 60px
+
+		li
+			display inline-block
+			margin -2px
+
+			a
+				box-sizing border-box
+				color color_texto
+				display block
+				font-weight 500
+				height 60px
+				padding 0 0.2em
+				text-align center
+				text-decoration none
+				width 167px
+
+			.opp_funciona
+				border-bottom 3px solid getjob_color
+
+				&:hover
+					-webkit-transition 0.2s background-color
+					background rgba(getjob_color, 1)
+					color white
+					transition 0.2s
+
+			.opp_profesionales
+				border-bottom 3px solid rojo
+
+				&:hover
+					-webkit-transition 0.2s background-color
+					background rgba(rojo, 1)
+					color white
+					transition 0.2s
+
+			.opp_proyectos
+				border-bottom 3px solid verde_claro
+
+				&:hover
+					-webkit-transition 0.2s background-color
+					background rgba(verde_claro, 1)
+					color white
+					transition 0.2s
+
+			.opp_get_account
+				border-bottom 3px solid amarillo
+
+				&:hover
+					-webkit-transition 0.2s background-color
+					background rgba(amarillo, 1)
+					color white
+					transition 0.2s
+
+			.opp_login
+				background gris_claro
+				border-bottom 3px solid #07749f
+				text-align center
+
+				&:hover
+					-webkit-transition 0.2s background-color
+					background rgba(#e6e6e6, 1)
+					color gray
+					transition 0.2s
+/*TERMINAN ESTILOS CSS GENERALES*/
+
+
+/*INICIAN ESTILOS CSS PARA INDEX*/
+.top_content_index
+	background #213338
+	min-height 300px
+	overflow hidden
+	margin-top 60px
+	padding 0.5em 0
+
+	.min_top
+		width 90%
+		margin 0 auto
+		padding-top 15px
+		
+
+		.left
+			overflow hidden
+
+			.data_content
+				.titulo
+					margin 0
+					font-size 2em
+					color white
+					text-align center
+					font-weight normal
+					line-height 35px
+
+					strong
+						color amarillo
+						font-weight bold
+						display block
+					
+				.lista
+
+					.item
+						margin 0
+						padding 0
+						color white
+						line-height 30px
+
+
+				.trabaja
+				.contrata
+					-webkit-transition width 0.1s  /* For Safari 3.1 to 6.0 */
+					border 0
+					border-radius 3px
+					display block
+					font-weight bold
+					margin 0 auto
+					margin-bottom 1em
+					text-align center
+					text-transform uppercase
+					transition width 0.1s
+					width 80%
+					text-decoration none
+				
+				.trabaja
+					background #ffc33e
+					color #b36929
+					border-bottom 3px solid #b36929
+
+					&:hover
+						background rgba(#ffc33e,0.9)
+
+				.contrata
+					background azul
+					color white
+					border-bottom 3px solid #025781
+
+					&:hover
+						background rgba(azul,0.9)
+					
+		
+
+.contenedor_registro
+	background gris_azulado
+	min-height 200px
+	padding 0.5em 0
+
+	.min_registro
+		width 90%
+		margin 0 auto
+		text-align center
+		overflow hidden 
+		
+
+
+		h2
+			margin 0
+			color color_texto
+
+		.campos
+			input 
+				padding 0.7em
+				border-radius 3px
+				background-color white
+				border 1px solid #b5b5b5
+				box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+				color rgba(black,0.7)
+				margin 0.6em 0
+				outline 0
+				vertical-align middle
+				max-width 100%
+			
+		.send_registro
+			a
+				-webkit-transition width 0.1s  /* For Safari 3.1 to 6.0 */
+				background #DF4639
+				border 0
+				border-bottom 3px solid rgba(#9c291f,1)
+				border-radius 3px
+				color white
+				display block
+				font-weight bold
+				margin 0.5em auto
+				text-align center
+				text-transform uppercase
+				transition width 0.1s
+				width 80%
+				text-decoration none
+
+
+.middle_content
+	background rgba(verde_claro,1) /*#3B95D1*/
+
+.bottom_content
+	background white /*#213338*/
+	
+	 
+					
+					
+
+.middle_content
+.bottom_content
+	padding 0.5em 0
+	overflow hidden
+	background #3B95D1
+
+	.min_cont
+		text-align center
+
+		h2
+			margin 0
+			font-size 1.6em
+			color white
+
+		.bubbles
+			/*margin 1em auto
+			overflow hidden
+			width 90%*/
+			padding 0
+			margin 0
+			width 100%
+			
+			.box
+				box-shadow 0 2px 10px rgba(0,0,0,0.3)
+				margin 0.5em
+				max-width 100%
+				padding 0.2em
+				background rgba(white,0.2)
+				border-radius 50%
+				display inline-block
+				width 130px
+				height 130px
+
+				&:hover
+					cursor pointer
+					background rgba(white,0.5)
+
+				img
+					width 100%
+					border-radius 50%
+
+.confian		
+	min-height 400px 
+	padding 0.5em 0
+	background #213338
+
+	.inner_cont
+		width 90%
+		margin 0 auto
+		text-align center
+		overflow hidden
+
+
+		.title_funciona
+			margin 0
+			font-size 1.6em
+			color white
+			margin-bottom 0.5em
+
+		.step
+			background gris_claro
+			min-height 300px
+			margin-bottom 1em
+
+			.left
+				float left
+				min-height 300px
+				width 20%
+
+				a 
+					vertical-align bottom
+					font-size 2em
+					font-weight bold
+					display block
+					color white
+
+			#left_1
+				background azul
+				border-left 3px solid #025781
+
+			#left_2
+				background rgba(#ffc33e,1)
+				border-left 3px solid #b36929
+
+
+			#left_3
+				background rgba(verde_claro,1)
+				border-left 3px solid #07aa4c
+
+			#left_4
+				background rgba(rojo,1)
+				border-left 3px solid #9c291f
+
+			.right
+				float right
+				width 70%
+				position relative
+
+				.top
+					position absolute
+					top 0
+					right 0
+					height 100px
+
+				.bottom
+					position absolute
+					bottom 0
+					right 0
+					height 200px
+
+					p 
+						margin 0
+					
+
+
+
+@media screen and (min-width: 800px)
+	.top_content_index
+		background url("../img/sld.png") #213338 no-repeat right
+		min-height 350px
+		background-size auto 100%
+
+		.min_top
+			max-width 70%
+			margin 0 auto
+
+			.left
+				float left
+				width 50%
+
+				.data_content
+					.titulo
+						font-size 2.5em
+						margin 0
+						text-align left
+						line-height 45px
+
+						strong 
+							display inline-block
+					
+					.trabaja
+					.contrata
+						width 35%
+						display inline-block
+						margin 1em 
+
+
+	.contenedor_registro
+		min-height 190px
+
+		.min_registro
+			margin 0 auto
+			text-align center
+
+			.campos
+
+				input
+					display inline-block
+					max-width 80%
+					margin 0.5em
+
+			.send_registro
+				width 20%
+				margin 0 auto
+	
+	.middle_content
+	.bottom_content
+		text-align center
+		.min_cont
+			
+			.box
+				img
+					width 320px
+				
+	
+	.confian		
+		.inner_cont
+			margin 0 auto
+			width 95%
+
+/*TERMINAN ESTILOS CSS PARA INDEX*/
+
+
+
+
+
+
+
+
+
+/*INICIAN ESTILOS CSS PARA FUNCIONA*/
+.max_con_funciona
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	margin-top 60px
+	max-width 100%
+	overflow hidden
+
+	.min_con_funciona
+		max-width 100%
+		overflow hidden
+
+	
+		.que_es_freelance
+			background gris_claro
+			border 1px solid rgba(color_texto,0.3)
+			border-radius 5px 5px 0 0
+			margin 0.5em
+		
+			.free
+				background rgba(verde_claro,0.8)
+				border-bottom 3px solid rgba(#07aa4c,0.8)
+				border-radius 5px 5px 0 0
+				box-shadow 0 0 6px rgba(0,0,0,0.3)
+				color white
+				margin 0
+				padding 0.5em
+				text-align center
+
+
+			p
+				color color_texto
+				line-height 25px
+				margin 1em
+				text-align justify
+
+
+		.video_como_funciona
+			background white
+			box-shadow 2px 2px 10px rgba(black, 0.3)
+			display block
+			margin 1.5em 0.5em 1.5em 0.5em
+			max-width 100%
+			position relative
+
+			.video_funciona
+				height 0
+				overflow hidden
+				padding-bottom 56.25%
+				padding-top 30px
+
+				iframe
+					display block
+					height 100%
+					left 0
+					margin 0 auto
+					position absolute
+					top 0
+					width 100%
+		
+		.pasos_como_funciona
+
+			.row
+				margin 1em auto
+				overflow hidden
+
+				.step
+					background gris_claro
+					border 1px solid rgba(color_texto,0.3)
+					border-radius 5px 5px 0 0
+					height 600px
+					margin-bottom 1em
+					margin-left 1em
+					overflow hidden
+
+					.ribon_step
+						background rgba(rojo,0.8)
+						color white
+						display inline-block
+						font-size 3em
+						margin-bottom 0
+						margin-left 0.5em
+						margin-top 0
+						overflow hidden
+						padding 0.4em
+						position relative
+
+						&:before
+							border-bottom 15px solid gris_claro
+							border-left 14px solid transparent
+							border-right 14px solid transparent
+							bottom 0
+							content ""
+							position absolute
+							text-align center
+
+					h2
+						border-bottom 1.5px solid color_texto
+						clear both
+						color color_texto
+						display block
+						float right
+						font-size 1.2em
+						margin-top 1em
+						padding-left 3em
+						padding-right 0.5em
+						top 0
+							
+					.descripcion_step
+						color color_texto
+						line-height 25px
+						margin-top 0
+						padding 0.5em 1.5em
+						position relative
+						text-align justify
+
+
+
+/*Media queries*/
+
+@media screen and (min-width: 480px)
+	.max_con_funciona
+		margin-top 60px
+
+		.min_con_funciona
+			background white
+
+			.pasos_como_funciona
+				.row
+					.step
+						height 380px
+
+	
+@media screen and (min-width: 800px)
+	.max_con_funciona
+		margin 0 auto
+		margin-top 60px
+		width 80%
+		
+		.min_con_funciona
+			box-shadow 0 0 6px rgba(0,0,0,0.2)
+
+			.video_como_funciona
+				margin 0 auto
+				margin-bottom 1.5em
+				margin-top 1.5em
+				max-width 50%
+
+			.pasos_como_funciona
+				.row
+					.step
+						height 550px	
+
+				
+@media screen and (min-width: 1200px)
+	.max_con_funciona
+		margin-top 60px
+		width 1000px
+		.min_con_funciona
+			
+			.que_es_freelance
+				width 70%
+				margin 1em auto
+
+			.pasos_como_funciona
+				.row
+					.step
+						height 350px
+
+/*TERMINAN ESTILOS CSS PARA FUNCIONA*/
+
+
+
+
+
+
+
+
+/*INICIAN ESTILOS CSS PARA PROFESIONALES*/
+.max_con_profesionales
+	margin-top 60px
+
+	.min_con_profesionales
+		padding-top 0.2px
+
+		.profesionales
+			.profesional
+				background gris_claro
+				border 1px solid rgba(color_texto,0.6)
+				border-radius 5px 5px 0 0 
+				margin 0 0.5em 1.5em 0.5em
+				overflow hidden
+				
+				.top_content
+					background gris_claro
+					border-radius 5px 5px 0 0 
+					padding-top 0.5em
+					text-align center
+
+					.foto
+						position relative
+						img
+							/*border 1px solid rgba(color_texto,0.5)*/
+							border-radius 2%
+							border-radius 50%
+							display block
+							height 75px
+							margin 0 auto
+							margin-bottom -2.5px
+							vertical-align top
+							width 75px
+
+						/*a
+							background rgba(azul,0.8)
+							border-bottom 3px solid rgba(#076a9a,0.5)
+							color white
+							font-size 12px
+							margin 0 auto
+							padding 2px 1.2em
+							text-decoration none
+
+							&:hover
+								background rgba(azul,0.9)
+								color rgba(white,0.9)*/
+
+					.nombre
+						margin-top 0.5em
+
+						a
+							color color_texto
+							font-size 1.1em
+							font-weight 700
+							text-decoration none
+							text-transform uppercase
+					
+					.grado_estudio
+						margin-top 0.2em
+						a
+							color color_texto
+							text-decoration none
+						
+					.clasificacion
+						margin-top 0.5em
+
+						a
+							color amarillo
+							font-size 1.2em
+							text-decoration none
+
+							/*&:hover
+								background azul
+								color white
+								padding 0.3em 0.5em 0 0.5em*/
+
+				
+				.next_bar 
+					background rgba(verde_claro,0.8)
+					border-bottom 3px solid rgba(#07aa4c,.8)
+					/*box-shadow 0 1px 10px rgba(black, 0.5)*/
+					color gris_claro
+					padding 0.5em
+					text-align center
+
+					.pais
+					.experiencia
+					.concretados
+					.cobro
+						display inline-block
+						line-height 25px
+						&:before 
+							content "|"
+						&:after 
+							content "|"
+						a
+							color gris_claro
+							text-decoration none
+
+							&:hover 
+								text-decoration underline
+				
+				.descripcion
+					background white
+					border-bottom 1px solid rgba(color_texto,0.3)
+					color color_texto
+					padding 0.5em
+					position relative
+
+					p
+						line-height 25px
+						margin 0
+						text-align center
+				
+				.habilidades
+					border-bottom 1px solid rgba(color_texto,0.3)
+					padding 0.5em
+					text-align center
+
+					.habilidad
+						background rgba(azul_claro,0.8)
+						border-radius 5px
+						color white
+						display inline-block
+						margin 0.10em
+						padding 0.2em 0.5em
+						text-decoration none
+
+				.acciones
+					overflow hidden
+					padding 1.2em 1em 1em 1em
+
+					.votos
+						float left
+
+						.up
+						.down
+							font-size 1.2em
+							text-decoration none
+
+						.up
+							color verde
+
+						.down
+							color rojo
+
+						.down_count
+						.up_count
+							color color_texto
+							font-size 15px
+							font-weight 500
+							
+
+
+					.contratar
+						float right
+
+						a
+							background rgba(rojo,0.8)
+							border-radius 3px
+							color white
+							margin 0
+							padding 0.5em 1em
+							text-decoration none
+
+							&:hover
+								background rgba(rojo,0.6)
+		
+		.aside
+			display none
+
+		
+@media screen and (min-width:800px)
+	.max_con_profesionales
+		.min_con_profesionales
+			background white
+			box-shadow 2px 0 10px rgba(0,0,0,0.5)
+			margin 0 auto
+			overflow hidden
+			width 80%
+
+			.profesionales
+				.profesional
+					.top_content
+						display inline-block
+						position relative
+						width 100%
+
+						.foto
+							display inline-block
+							float left
+							margin-left 0.5em
+							position relative
+
+					.next_bar
+						margin-top 0.5em
+											
+					.descripcion
+						p
+							text-align left
+
+					.habilidades
+						&:before
+							color rgba(black,0.8)
+							content "Habilidades"
+							display block
+							font-size 1.1em
+
+					.contratar
+						float right 
+						right 0
+
+
+@media screen and (min-width:1000px)
+	.max_con_profesionales
+		.min_con_profesionales
+			.profesionales
+				display inline-block
+				width 68%
+			
+			.aside
+				display inline-block
+				float right
+				
+				
+
+
+@media screen and (min-width:1200px)
+	.max_con_profesionales
+		.min_con_profesionales
+			width 1000px
+			.buscador
+				.elementos
+					.search
+						width 250px
+
+
+/*TERMINAN ESTILOS CSS PARA PROFESIONALES*/
+
+
+
+
+/*INICIAN ESTILOS CSS PARA PROYECTOS*/
+.max_con_proyectos
+	margin-top 60px
+
+	.min_con_proyectos
+		padding-top 0.2px
+
+		.proyectos
+			.proyecto
+				background gris_claro
+				border 1px solid rgba(color_texto,0.6)
+				border-radius 5px 5px 0 0 
+				margin 0 0.5em 1.5em 0.5em
+				overflow hidden
+
+				.top_content
+					background gris_claro
+					border-radius 5px 5px 0 0 
+					padding-bottom 0.5em
+					padding-top 0.5em
+					text-align center
+
+					.title_proyecto
+						color color_texto
+						font-size 1.1em
+						font-weight 700
+						text-decoration none
+						
+				.next_bar
+					background rgba(verde_claro,0.8)
+					border-bottom 3px solid rgba(#07aa4c,.8)
+					/*box-shadow 0 1px 10px rgba(black, 0.5)*/
+					color gris_claro
+					padding 0.5em
+					text-align center
+
+					.categoria					
+					.hace_cuanto					
+					.propuestas					
+					.plazo					
+					.cobro
+						display inline-block
+						line-height 25px
+						&:before 
+							content "|"
+						&:after 
+							content "|"
+						a
+							color white
+							text-decoration none
+					
+				.descripcion
+					background white
+					border-bottom 1px solid rgba(color_texto,0.3)
+					color color_texto
+					padding 0.5em
+					position relative
+
+					p
+						line-height 25px
+						margin 0
+
+				.habilidades
+					border-bottom 1px solid rgba(color_texto,0.3)
+					padding 0.5em
+					text-align center
+
+					.habilidad
+						background rgba(azul_claro,0.8)
+						border-radius 5px
+						color white
+						display inline-block
+						margin 0.10em
+						padding 0.2em 0.5em
+						text-decoration none
+
+				.posteador
+				.saber_mas
+					background white
+					border-bottom 1px solid rgba(color_texto,0.3)
+					color color_texto
+					padding 0.2em
+					a
+						color color_texto
+						padding 0.5em
+						text-decoration none 
+
+						&:hover
+							text-decoration underline
+		
+
+				.enviar_propuesta
+					padding 1em
+					position relative
+					text-align center
+
+					a
+						background rgba(rojo,0.8)
+						border-radius 3px
+						color white
+						padding 0.5em 1.5em
+						text-decoration none
+
+						&:hover
+							background rgba(rojo,0.6)
+
+		.aside
+			display none
+
+
+@media screen and (min-width:800px)
+	.max_con_proyectos
+		.min_con_proyectos
+			background white
+			box-shadow 2px 0 10px rgba(0,0,0,0.5)
+			margin 0 auto
+			overflow hidden
+			width 80%
+
+			.proyectos
+				.proyecto
+
+					.habilidades
+						&:before
+							color color_texto
+							content "Habilidades requeridas"
+							display block
+					
+					.enviar_propuesta
+						float right 
+						right 0
+
+
+@media screen and (min-width:1000px)
+	.max_con_proyectos
+		.min_con_proyectos
+			.proyectos
+				display inline-block
+				width 68%
+
+			.aside
+				display inline-block
+				float right
+				
+			
+			
+
+@media screen and (min-width:1200px)
+	.max_con_proyectos
+		
+		.min_con_proyectos
+			width 1000px
+			
+			.buscador
+				.elementos
+					.search
+						width 250px
+/*TERMINAN ESTILOS CSS PARA PROYECTOS*/
+
+
+/*INICIAN ESTILOS CSS PARA LOGIN*/
+.max_content_login
+	margin-top 60px
+
+	.min_content
+		overflow hidden
+		padding-top 0.2px
+
+		.box	
+			background gris_claro
+			border 1px solid rgba(color_texto,0.6)
+			border-radius 5px 5px 0 0
+			margin 0 auto
+			margin-bottom 6em
+			margin-top 1em
+			position relative
+			width 95%
+
+			.top_cont
+			
+				h3
+					background rgba(verde_claro,0.8)
+					border-bottom 3px solid rgba(#07aa4c,0.8)
+					border-radius 5px 5px 0 0
+					box-shadow 0 0 6px rgba(0,0,0,0.3)
+					color white
+					margin 0
+					padding 0.5em
+					text-align center
+					font-weight 800
+					text-transform uppercase
+			
+			.middle_cont
+				margin 0 auto
+				max-width 100%
+				min-height 160px
+				padding-top 2em
+				position relative
+				width 300px
+
+				.nombre_usuario
+				.email_usuario
+					background-color #f6f6f6
+					border 1px solid #b5b5b5
+					border-radius 5px
+					box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+					box-sizing border-box
+					margin 0 auto
+					margin-bottom 1.5em
+					padding 5px 0
+					width 95%
+
+					input
+						background #f6f6f6
+						border 0 
+						border-radius 2px
+						color gray
+						width 88%
+
+						&:focus
+							outline 0
+				
+				.nombre_usuario
+					&:before
+						color gray
+						content "\e601"
+						font-family "gt-icons"
+						margin-left .3em	
+						vertical-align middle
+
+				.email_usuario		
+					&:before
+						color gray
+						content "\e602"
+						font-family "gt-icons"
+						margin-left .3em
+						vertical-align middle
+
+				.check
+					background gray
+					color color_texto
+					display inline-block
+					width 35px
+
+			.bottom_cont
+				background rgba(color_texto,0.2)
+				border-top 1px solid color_texto
+				padding 2em 0 1em 0
+				text-align center
+
+				.iniciar
+					background azul
+					border 0
+					border-bottom 4px solid #076a9a
+					border-radius 2px
+					color white
+					padding .5em
+					width 50%
+
+					&:hover
+						background rgba(azul,0.8)
+
+			.last_cont
+				background rgba(color_texto,0.08)
+				text-align center
+
+				.registro
+				.forget_pass
+					color color_texto
+					display block
+					padding 0.2em
+					text-decoration none
+					&:before 
+						content "|"
+					&:after 
+						content "|"
+
+					&:hover
+						color black
+		
+					
+@media screen and (min-width:480px)
+	.max_content_login
+		margin-top 60px
+
+		.min_content
+			background white
+			.box
+				margin 0 auto
+				margin-bottom 3.5em
+				margin-top 2em
+				width 80%
+			
+
+@media screen and (min-width:800px)
+	.max_content_login
+		margin-top 60px
+
+		.min_content
+			box-shadow 2px 0 10px rgba(0,0,0,0.5)
+			margin 0 auto
+			width 80%
+			
+			.box
+				width 60%
+				.middle_cont
+					max-width 80%
+			
+				.last_cont
+					.registro
+					.forget_pass
+						display inline-block
+						padding 0.5em
+					
+
+@media screen and (min-width:1200px)
+	.max_content_login
+		margin-top 60px
+
+		.min_content
+			width 1000px
+
+			.box
+				width 35%
+
+/*TERMINAN ESTILOS CSS PARA LOGIN*/
+
+
+
+
+
+/*INICIAN ESTILOS CSS PARA REGISTRO*/
+.max_content_registro
+	margin-top 60px
+
+	.min_content
+		overflow hidden
+		padding-top 0.2px
+
+
+		.box	
+			background gris_claro
+			border 1px solid rgba(color_texto,0.6)
+			border-radius 5px 5px 0 0
+			margin 0 auto
+			margin-bottom 6em
+			margin-top 1em
+			position relative
+			width 95%
+
+			.top_cont
+
+				h3
+					background rgba(verde_claro,0.8)
+					border-bottom 3px solid rgba(#07aa4c,0.8)
+					border-radius 5px 5px 0 0
+					box-shadow 0 0 6px rgba(0,0,0,0.3)
+					color white
+					margin 0
+					padding 0.5em
+					text-align center
+					font-weight 800
+					text-transform uppercase
+			
+			.middle_cont
+				margin 0 auto
+				max-width 100%
+				min-height 160px
+				padding-top 2em
+				position relative
+				width 300px
+
+				.nombre_usuario
+				.email_usuario
+				.pass_usuario
+					background-color #f6f6f6
+					border 1px solid #b5b5b5
+					border-radius 5px
+					box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+					box-sizing border-box
+					margin 2em auto
+					padding 5px 0
+					width 95%
+
+					input
+						background #f6f6f6
+						border 0 
+						border-radius 2px
+						color gray
+						width 88%
+
+
+						&:focus
+							outline 0
+				
+				.nombre_usuario
+					&:before
+						color gray
+						content "\e601"
+						font-family "gt-icons"
+						margin-left .3em	
+						vertical-align middle
+
+				.email_usuario		
+					&:before
+						color gray
+						content "\e602"
+						font-family "gt-icons"
+						margin-left .3em
+						vertical-align middle
+
+				.pass_usuario
+					&:before
+						color gray
+						content "\e602"
+						font-family "gt-icons"
+						margin-left .3em
+						vertical-align middle
+
+			.bottom_cont
+				background rgba(color_texto,0.2)
+				border-top 1px solid color_texto
+				padding 1em 0 1em 0
+				text-align center
+
+				.term_accept
+					background gray
+					color color_texto
+					display inline-block
+					margin-bottom 1em
+					width 30px
+
+				.show_term
+					color color_texto
+
+				.iniciar
+					background azul
+					border 0
+					border-bottom 4px solid #076a9a
+					border-radius 2px
+					color white
+					padding .5em
+					width 50%
+
+					&:hover
+						background rgba(azul,0.8)
+
+			.last_cont
+				background rgba(color_texto,0.08)
+				text-align left
+
+				.i_user
+					color color_texto
+					display block
+					padding 0.2em
+					text-decoration none
+
+					&:before 
+						content "|"
+					&:after 
+						content "|"
+
+					&:hover
+						color black
+		
+
+@media screen and (min-width:480px)
+	.max_content_registro
+		margin-top 60px
+
+		.min_content
+			background white
+			.box
+				margin 0 auto
+				margin-bottom 3.5em
+				margin-top 2em
+				width 80%
+			
+
+@media screen and (min-width:800px)
+	.max_content_registro
+		margin-top 60px
+
+		.min_content
+			box-shadow 2px 0 10px rgba(0,0,0,0.5)
+			margin 0 auto
+			width 80%
+			
+			.box
+				width 60%
+				.middle_cont
+					max-width 80%
+			
+				.last_cont
+					.registro
+					.forget_pass
+						display inline-block
+						padding 0.5em
+					
+
+@media screen and (min-width:1200px)
+	.max_content_registro
+		margin-top 60px
+
+		.min_content
+			width 1000px
+
+			.box
+				width 35%
+
+/*TERMINAN ESTILOS CSS PARA REGISTRO*/
+
+
+
+
+
+
+
+
+/*INICIAN ESTILOS CSS PARA PANEL DE ADMINISTRACIÓN*/
+.max_panel
+	margin-top 60px
+	overflow hidden
+
+	.ruta
+		
+		.raiz
+			
+			.logout
+				float right
+				right 0
+
+				&:hover
+					text-decoration underline
+
+				&:after
+				&:before
+					content " | "
+
+	.min_panel
+		padding-top 0.5em
+		position relative
+
+		.content_opciones
+			margin 0 auto 
+			width 90%
+
+			.opciones
+				font-size 1.2em
+				padding 0.5em
+				width 100%
+				color color_texto
+
+		.opcion
+			
+		#opcion_1
+			margin-top 1em
+
+			.profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/
+				background gris_claro
+				border 1px solid rgba(color_texto,0.6)
+				border-radius 5px 5px 0 0 
+				margin 1em
+				overflow hidden
+				
+				.top_content
+					background gris_claro
+					border-radius 5px 5px 0 0 
+					padding-bottom 0.5em
+					padding-top 0.5em
+					text-align center
+
+					.foto_perfil
+						a
+							/*background rgba(azul,0.2)
+							border-bottom 3px solid rgba(#076a9a,0.5)*/
+							color color_texto
+							font-size 12px
+							margin 0 auto
+							padding 2px 1.2em
+							text-decoration none
+							border-radius 5px
+
+							&:hover
+								/*background rgba(azul,0.9)
+								color rgba(white,0.9)*/
+								text-decoration underline
+						
+					.nombre
+						margin-top 0.5em
+
+						a
+							color color_texto
+							font-size 1.1em
+							font-weight 700
+							text-decoration none
+							text-transform uppercase
+					
+					.grado_estudio
+						margin-top 0.2em
+						a
+							color color_texto
+							text-decoration none
+						
+					.clasificacion
+						margin-bottom 0.5em
+						margin-top 0.5em
+
+						a
+							color amarillo
+							font-size 1.2em
+							text-decoration none
+
+			.to_work
+				background rgba(gray,0.1) 
+				border-left 15px solid white
+				border-right 15px solid white
+				color color_texto
+				font-weight bold
+				padding 0.57em
+				font-size 1.3em
+				position relative
+				text-align center
+				text-transform uppercase
+				margin 0.8em
+				border 1px solid rgba(color_texto,0.6)
+
+				&:before
+					border-bottom 26px solid transparent
+					border-left 20px solid rgba(rojo,0.8)
+					border-top 26px solid transparent
+					content ""
+					left 0
+					position absolute
+					top 0
+
+				&:after
+					border-bottom 26px solid transparent
+					border-right 20px solid rgba(rojo,0.8)
+					border-top 26px solid transparent
+					content ""
+					position absolute
+					right 0
+					top 0
+
+			.proyectos
+				.proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/
+					background gris_claro
+					border 1px solid rgba(color_texto,0.6)
+					border-radius 5px 5px 0 0 
+					margin 1em
+					overflow hidden
+
+					.top_content
+						background gris_claro
+						border-radius 5px 5px 0 0 
+						padding-bottom 0.5em
+						padding-top 0.5em
+						text-align center
+
+						.title_proyecto
+							color color_texto
+							font-size 1.1em
+							font-weight 700
+							text-decoration none
+							
+					.next_bar
+						background rgba(verde_claro,0.8)
+						border-bottom 3px solid rgba(#07aa4c,.8)
+						box-shadow 0 1px 10px rgba(black, 0.5)
+						color gris_claro
+						padding 0.5em
+						text-align center
+
+						.categoria					
+						.hace_cuanto					
+						.propuestas					
+						.plazo					
+						.cobro
+							display inline-block
+							line-height 25px
+							&:before 
+								content "|"
+							&:after 
+								content "|"
+							a
+								color white
+								text-decoration none
+						
+					.descripcion
+						background white
+						border-bottom 1px solid rgba(color_texto,0.3)
+						color color_texto
+						padding 0.5em
+						position relative
+
+						p
+							line-height 30px
+							margin 0
+							text-align left
+
+					.habilidades
+						border-bottom 1px solid rgba(color_texto,0.3)
+						padding 0.5em
+						text-align center
+
+						.habilidad
+							background azul_claro
+							border-radius 5px
+							color white
+							display inline-block
+							margin 0.10em
+							padding 0.2em 0.5em
+							text-decoration none
+
+					.posteador
+					.saber_mas
+						background white
+						border-bottom 1px solid rgba(color_texto,0.3)
+						color color_texto
+						padding 0.2em
+						a
+							color color_texto
+							padding 0.5em
+							text-decoration none 
+
+							&:hover
+								text-decoration underline
+					.saber_mas 
+						text-align center
+
+					.enviar_propuesta
+						padding 1em
+						position relative
+						text-align center
+							
+
+		#opcion_2
+			.inner_content
+				margin-top 1em
+				.datos_acceso
+					border-bottom 1px solid rgba(color_texto,0.3)
+					padding-bottom 1em
+					
+					.change_pass
+						.cambiar
+							background rgba(color_texto,0.6)
+							color white
+							padding 0.2em 2em
+							text-decoration none
+							width 50px
+
+							&:hover
+								background getjob_color
+
+				.datos_persona
+					.guardar_cuenta
+						margin 0.5em 0 0.5em 0
+
+					.dar_baja
+						left 0
+						margin 3em 0 0 0
+						text-align left
+
+						a
+							color color_texto
+							padding 0.2em 0.5em
+							text-decoration none
+
+							&:before
+								content " | "
+
+							&:hover
+								background rgba(rojo,0.7)
+								color white
+
+		#opcion_3
+			.inner_content
+				margin-top 1em
+				.guardar_perfil
+					margin 0.5em 0 0.5em 0
+
+		#opcion_4
+			.inner_content
+				margin-top 1em
+				.client_profile
+					.data_content
+						background gris_claro
+						border-radius 5px 5px 0 0 
+						padding-bottom 0.5em
+						padding-top 1em
+						text-align center
+							
+						.nombre
+							border-top 1px solid rgba(color_texto,0.3)
+							background white
+							margin-top 1em
+							padding-top 1em
+
+							a
+								color color_texto
+								font-size 1.1em
+								font-weight 700
+								text-decoration none
+								text-transform uppercase
+						
+						.grado_estudio
+							background white
+							padding-top 0.5em
+
+							a
+								color color_texto
+								text-decoration none
+							
+						.clasificacion
+							background white
+							padding-top 1em
+
+							a
+								color amarillo
+								font-size 1.2em
+								text-decoration none
+						.pais
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							color color_texto
+							padding 0.5em
+							p
+								font-size 1.2em
+								margin 0 
+															
+						.about_me
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							color color_texto
+							padding 1em
+							
+							.label
+								font-weight 600
+								margin 0
+
+							.descript_me
+								margin 0
+								text-align left
+								
+
+						.habilidades
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							margin-bottom 1.5em
+							padding 1em
+							text-align center
+
+							.tag_habi
+								color color_texto
+								font-weight 600
+								margin 0
+
+
+							.habilidad
+								background azul_claro
+								border-radius 5px
+								color white
+								display inline-block
+								margin 0.10em
+								padding 0.2em 0.5em
+								text-decoration none
+
+		#opcion_5
+		#opcion_7
+			.inner_content
+				margin-top 1em
+				.clientes_favoritos
+				.profesionales_favoritos
+					.favorito
+						border 1px solid rgba(color_texto,0.3)
+						margin 1em
+						padding-bottom 1em
+
+						.contacto
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							padding 1em
+
+						.foto_perfil
+							border-bottom 1px solid rgba(color_texto,0.3)
+							padding 1em
+										
+						.nombre
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							padding 0.5em
+
+							a
+								color color_texto
+								font-size 1.1em
+								font-weight 700
+								text-decoration none
+								text-transform uppercase
+								
+						.grado_estudio
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							padding 1em
+
+							a
+								color color_texto
+								text-decoration none
+
+						.clasificacion
+							background white
+							border-bottom 1px solid rgba(color_texto,0.3)
+							margin-bottom 1em
+							padding 1em
+
+							a
+								color amarillo
+								font-size 1.2em
+								text-decoration none
+
+		#opcion_6
+		#opcion_8
+			.inner_content
+				margin-top 1em
+				.proyectos_realizados
+				.mis_publicaciones
+					.realizado
+					.publicado
+						border 1px solid rgba(color_texto,0.3)
+						margin 1em
+						padding-bottom 1em
+
+						.nombre
+							border-bottom 1px solid rgba(color_texto,0.3)
+							padding 1em
+							a 
+								color color_texto
+								font-size 1.1em
+								font-weight 700
+								text-decoration none
+							
+						.categoria
+						.posteador
+						.cliente
+						.pais_origen
+						.status
+						.propuestas
+							background white
+							padding 0.8em
+					
+							a 
+								color color_texto
+								text-decoration none
+
+						.status
+							border-bottom 1px solid rgba(color_texto,0.3)
+							margin-bottom 1em
+
+		#opcion_9
+			.inner_content
+				.nuevo_proyecto
+					.registrar_proyecto
+						margin 1em 0 0.5em 0
+
+		#opcion_2
+		#opcion_3
+		#opcion_4
+		#opcion_5
+		#opcion_6
+		#opcion_7
+		#opcion_8
+		#opcion_9
+			margin 0.5em
+			padding 0 0.5em
+
+			.tag
+				color rgba(black,0.6)
+				margin 1em 0 0 0
+
+			.inner_content
+				background gris_claro
+				border 1px solid rgba(color_texto,0.6)
+				border-radius 5px 5px 0 0
+				padding-bottom 1em
+				text-align center
+				
+				h1
+					background rgba(azul_claro,0.8)
+					/*border-bottom 3px solid #07aa4c*/
+					border-radius 5px 5px 0 0
+					color white
+					font-size 1.3em
+					margin 0
+					padding 0.2em
+					font-weight 500
+
+			.tipo_cobro
+				li
+					list-style none
+					text-align left
+
+	.menu_right 
+		display none
+
+
+
+@media screen and (min-width: 800px)
+	.max_panel
+		background white
+		margin 0 auto
+		margin-top 60px
+		width 80%
+
+		.content_opciones
+			width 95%
+
+@media screen and (min-width: 1000px)
+	.max_panel
+		background white
+		margin-top 60px
+		width 1000px
+
+		/*.content_opciones
+			display none*/
+		
+		.min_panel
+			float left
+			position relative
+			width 70%
+
+		.menu_right 
+			background gris_claro	
+			border 1px solid rgba(color_texto,0.6)
+			display inline-block
+			height 100%		
+			margin-top 73px
+			position relative
+			width 28%
+			padding 0
+
+			.navegacion
+				padding 0
+
+				li 
+					border-bottom 1px solid rgba(color_texto,0.3)
+					list-style none
+					margin 0
+
+					p
+						display inline-block
+						margin 0 
+
+					a
+						color color_texto
+						padding 1em
+						text-decoration none
+						display block
+
+						&:hover
+							background rgba(color_texto,0.2)
+						
+						
+
+/*TERMINAN ESTILOS CSS PARA PANEL DE ADMINISTRACIÓN*/
+
+
+/*INICIAN ESTILOS CSS PARA DETALLES PROYECTOS*/
+.max_details_proy
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	margin-top 60px
+	max-width 100%
+	overflow hidden
+
+	.min_content
+		max-width 100%
+		overflow hidden
+
+		.proyecto
+			background gris_claro
+			border 1px solid rgba(color_texto,0.6)
+			border-radius 5px 5px 0 0 
+			margin 1em
+			overflow hidden
+
+			.tag
+				display block
+				margin-bottom 1em
+				font-weight 600
+				color color_texto
+				margin 0
+
+			.nombre
+				background gris_claro
+				padding 0.5em
+				text-align center
+				a
+					color color_texto
+					font-size 1.1em
+					font-weight 700
+					text-decoration none
+					text-transform uppercase
+						
+			
+			.categoria
+				background rgba(verde_claro,0.8) 
+				border-bottom 4px solid rgba(#07aa4c,1)
+				padding 0.5em
+				text-align center
+
+				a
+					color white
+					font-size 1.2em
+					font-weight 600
+					text-decoration none
+
+			.descripcion
+				background gris_claro
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+
+				p
+					color color_texto
+					line-height 30px
+					margin 0
+					
+			.habilidades
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+				background white
+					
+				.habilidad
+					background azul_claro
+					border-radius 5px
+					color white
+					display inline-block
+					margin 0.10em
+					padding 0.2em 0.5em
+					text-decoration none
+				
+			.telefono
+				background gris_claro
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+				p
+					margin 0
+					margin 0.10em
+
+			.propuestas
+				background white
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+
+			.status
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+				
+			.metodo_cobro
+			.valor_hora
+				background white
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+				p
+					margin 0 
+
+			.presupuesto
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+			
+
+			.horas_estimadas
+			.duracion
+				background white
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+				
+
+			.desarrollador
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+				
+
+			.proponer
+				background white
+				border-top 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+			
+		.aside
+			display none
+
+@media screen and (min-width: 800px)
+	.max_details_proy
+		background white
+		margin 0 auto
+		margin-top 60px
+		width 80%
+
+
+@media screen and (min-width: 1000px)
+	.max_details_proy
+		background white
+		margin-top 60px
+		width 1000px
+
+		.min_content
+
+			.proyecto
+				float left
+				position relative
+				width 65%
+
+			.aside
+				background gris_claro	
+				border 1px solid rgba(color_texto,0.6)
+				display inline-block
+				height 100%		
+				margin-top 15px
+				max-height 100%
+				position relative
+				width 30%
+				padding 0
+				overflow hidden
+				border-radius 5px 5px 0 0 
+
+				.lateral_right
+					padding 0
+
+					li
+						border-bottom 1px solid rgba(color_texto,0.3)
+						color color_texto 
+						list-style none
+
+						a
+							color color_texto
+							text-decoration none
+							display block
+							padding 1em 0.5em
+
+							&:hover
+								background rgba(color_texto,0.1)
+								color rgba(black,0.7)
+
+/*TERMINAN ESTILOS CSS PARA DETALLES PROYECTOS*/
+
+
+/*INICIAN ESTILOS CSS PARA DETALLES PROFESIONALES*/
+.max_details_prof
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	margin-top 60px
+	max-width 100%
+	overflow hidden
+
+	.min_content
+		max-width 100%
+		overflow hidden
+
+		.profesional
+			background gris_claro
+			border 1px solid rgba(color_texto,0.6)
+			border-radius 5px 5px 0 0 
+			margin 1em
+			overflow hidden
+
+			.tag
+				display block
+				margin-bottom 1em
+				font-weight 600
+				color color_texto
+				margin 0
+
+			.foto
+				background white
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+					
+				.foto_perfil
+					border-bottom 1px solid rgba(color_texto,0.3)
+					border-radius 2%
+					border-radius 50%
+					display block
+					height 75px
+					margin 0 auto
+					vertical-align top
+					width 75px
+
+			.nombre
+				background rgba(verde_claro,0.8) 
+				padding 0.5em 0
+				text-align center
+
+				a
+					color white
+					font-size 1.1em
+					font-weight 700
+					text-decoration none
+					text-transform uppercase
+						
+			.grado_estudio
+				background rgba(verde_claro,0.8) 
+				text-align center
+				a
+					color white
+					text-decoration none
+	
+			.clasificacion
+				background rgba(verde_claro,0.8) 
+				padding 0.5em 0
+				text-align center
+
+				a
+					color amarillo
+					font-size 1.2em
+					text-decoration none
+
+			.categoria
+				background rgba(verde_claro,0.8) 
+				border-bottom 4px solid rgba(#07aa4c,1)
+				text-align center
+				a
+					color white
+					font-size 1.2em
+					font-weight 600
+					text-decoration none
+
+			.descripcion
+				background white
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+
+				p
+					color color_texto
+					line-height 30px
+					margin 0
+
+			.habilidades
+				border-bottom 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+					
+				.habilidad
+					background azul_claro
+					border-radius 5px
+					color white
+					display inline-block
+					margin 0.10em
+					padding 0.2em 0.5em
+					text-decoration none
+					
+			
+			.idiomas
+				border-bottom 1px solid rgba(color_texto,0.3)
+				text-align center
+				padding 1em
+				background white
+									
+				.idioma
+					border-radius 5px
+					color white
+					display inline-block
+					margin 0.10em
+					padding 0.2em 0.5em
+					text-decoration none
+					background rgba(rojo,0.8)
+				
+			.email
+				border-bottom 1px solid rgba(color_texto,0.3)
+				text-align center
+				padding 1em
+				
+				a 
+					color color_texto
+					text-decoration none
+					padding 1em
+					
+					&:hover
+						text-decoration underline
+
+			.telefono
+				background white
+				border-bottom 1px solid rgba(color_texto,0.3)
+				text-align center
+				padding 0.5em
+
+				p
+					margin 0
+					padding 0.5em
+				
+			.tiempo_experiencia
+				border-bottom 1px solid rgba(color_texto,0.3)
+				color color_texto 
+				text-align center
+				padding 1em
+
+					
+			.tipo_moneda
+				color color_texto 
+				text-align center
+				border-bottom 1px solid rgba(color_texto,0.3)
+				
+				p
+					margin 0 
+					padding 0.5em
+
+
+			.metodo_cobro
+				padding 0.5em
+				border-bottom 1px solid rgba(color_texto,0.3)
+		
+			.metodo_cobro
+			.valor_hora
+				background white
+				color color_texto 
+				padding 0.5em
+				text-align center
+				p
+					padding 0.5em
+					margin 0 
+									
+			.pais
+				border-bottom 1px solid rgba(color_texto,0.3)
+				border-top 1px solid rgba(color_texto,0.3)
+				text-align center
+				padding 1em
+
+				a
+					color color_texto
+					text-decoration none
+					margin-bottom 0.5em
+						
+					
+			.proyectos_trabajados
+				border-bottom 1px solid rgba(color_texto,0.3)
+
+			.proyectos_trabajados
+			.proyectos_publicados
+				background white
+				color color_texto 
+				padding 0.5em
+				text-align center
+
+				p 
+					margin 0
+					padding 0.5em 
+
+					
+			.contratar
+				border-top 1px solid rgba(color_texto,0.3)
+				padding 1em
+				text-align center
+			
+		.aside
+			display none
+
+@media screen and (min-width: 800px)
+	.max_details_prof
+		background white
+		margin 0 auto
+		margin-top 60px
+		width 80%
+
+
+@media screen and (min-width: 1000px)
+	.max_details_prof
+		background white
+		margin-top 60px
+		width 1000px
+
+		.min_content
+
+			.profesional
+				float left
+				position relative
+				width 65%
+
+			.aside
+				background gris_claro	
+				border 1px solid rgba(color_texto,0.6)
+				display inline-block
+				height 100%		
+				margin-top 15px
+				max-height 100%
+				position relative
+				width 30%
+
+				.lateral_right
+					padding 0
+
+					li
+						border-bottom 1px solid rgba(color_texto,0.3)
+						color color_texto 
+						list-style none
+
+						a
+							color color_texto
+							text-decoration none
+							display block
+							padding 1em 0.5em
+
+							&:hover
+								background rgba(color_texto,0.1)
+								color rgba(black,0.7)
+
+/*TERMINAN ESTILOS CSS PARA DETALLES PROFESIONALES*/
+
+
+
+
+/*INICIAN ESTILOS CSS PARA ABOUT*/
+.max_content_about
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	margin-top 60px
+	max-width 100%
+	overflow hidden
+
+	.min_content
+		margin 0 auto
+		max-width 100%
+		overflow hidden
+		background white
+
+		.data_team
+			border-radius 50px 5px 0 0
+			margin 0 0.5em 0.5em 0.5em
+
+			.mision
+			.vision
+			.datos_contacto
+				background gris_claro
+				border 1px solid rgba(color_texto,0.6)
+				margin 2em 0.5em
+
+				h3
+					color color_texto
+					font-size 1.2em
+					margin 0
+					padding 0.5em
+					
+
+				p
+					color color_texto
+					line-height 25px
+					padding 0.5em
+
+
+			#mision
+				border-left 10px solid azul
+				text-align left
+			#vision
+				border-right 10px solid verde_claro
+				text-align right
+			#datos_contacto
+				border-left 10px solid rojo
+				text-align left
+
+	
+@media screen and (min-width: 800px)
+	.max_content_about
+		margin 0 auto
+		margin-top 60px
+		width 80%
+		
+		.min_content
+			box-shadow 0 0 6px rgba(0,0,0,0.2)
+				
+@media screen and (min-width: 1200px)
+	.max_content_about
+		margin-top 60px
+		width 1000px
+			
+/*TERMINAN ESTILOS CSS PARA ABOUT*/
+
+
+/*INICIAN ESTILOS CSS PARA TERMINOS Y CONDICIONES*/
+.max_content_terminos
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	margin-top 60px
+	max-width 100%
+	overflow hidden
+
+	.min_content
+		margin 0 auto
+		max-width 100%
+		overflow hidden
+		background white
+
+		.terminos
+			padding 0.5em
+			h1
+				color rgba(color_texto,1)
+				font-size 1.7em
+				margin 0
+				padding 0.5em 0 0 0.5em
+
+			.termino
+				background gris_claro
+				border 1px solid rgba(color_texto,0.6)
+				border-left 10px solid azul
+				margin 2em 0.5em
+
+				h3
+					color color_texto
+					font-size 1.2em
+					margin 0
+					padding 0.5em
+
+				p
+					color color_texto
+					line-height 25px
+					padding 0.5em
+
+@media screen and (min-width: 800px)
+	.max_content_terminos
+		margin 0 auto
+		margin-top 60px
+		width 80%
+		
+		.min_content
+			box-shadow 0 0 6px rgba(0,0,0,0.2)
+
+			.terminos
+				
+				h1 
+					text-align left
+				
+@media screen and (min-width: 1200px)
+	.max_content_terminos
+		margin-top 60px
+		width 1000px
+
+/*TERMINAN ESTILOS CSS PARA TERMINNOS Y CONDICIONES*/
+
+
+/*INICIAN ESTILOS CSS PARA CATEGORIAS */
+.max_content_categorias
+	box-shadow 2px 2px 10px rgba(black, 0.5)
+	margin-top 60px
+	max-width 100%
+	overflow hidden
+
+	.min_content
+		background white
+		margin 0 auto
+		max-width 100%
+		overflow hidden
+
+		.all_categorias
+			margin 0
+			overflow hidden
+
+			h1
+				color rgba(color_texto,1)
+				font-size 1.7em
+				margin 0
+				text-align center
+				padding 0
+
+			.row
+				margin 1em auto
+				overflow hidden
+				width 90%
+				
+				.box
+					box-shadow 0 2px 10px rgba(0,0,0,0.3)
+					margin 0.5em
+					max-width 100%
+					position relative
+					width 100%
+
+					img
+						width 100%
+
+					&:hover
+						border 1px solid black
+						cursor pointer
+
+				.view
+					background amarillo
+					bottom 0
+					color color_texto
+					font-size 1.2em
+					height 30px
+					position absolute
+					right 0
+					text-align center
+					text-decoration none
+					width 30px
+
+					&:hover
+						color white
+							
+					&:before
+						border-left 15px solid transparent
+						border-right 30px solid amarillo
+						border-top 30px solid transparent	
+						bottom 0
+						content " "
+						position absolute 
+						right 100%
+
+					&:after
+						border-left 15px solid transparent
+						border-right 30px solid amarillo
+						border-top 30px solid transparent	
+						bottom 100%
+						content " "
+						position absolute 
+						right 0
+
+			
+
+@media screen and (min-width: 800px)
+	.max_content_categorias
+		margin 0 auto
+		margin-top 60px
+		width 80%
+		
+		.min_content
+			box-shadow 0 0 6px rgba(0,0,0,0.2)
+
+			.all_categorias
+				padding 0.5em 0
+				
+				h1 
+					text-align left
+					padding-left 2.2em
+				
+@media screen and (min-width: 1200px)
+	.max_content_categorias
+		margin-top 60px
+		width 1000px
+
+/*TERMINAN ESTILOS CSS PARA CATEGORIAS */
+
+
+/*INICIAN ESTILOS PARA SUBIR FOTOS*/
+.max_content_subir_foto
+	margin-top 60px
+
+	.min_content
+		overflow hidden
+		padding-top 0.2px
+
+		.box	
+			background gris_claro
+			border 1px solid rgba(color_texto,0.6)
+			border-radius 5px 5px 0 0
+			margin 0 auto
+			margin-bottom 6em
+			margin-top 1em
+			position relative
+			width 95%
+
+			.top_cont
+			
+				h3
+					background verde_claro
+					border-bottom 4px solid #07aa4c
+					border-radius 5px 5px 0 0
+					box-shadow 0 0 6px rgba(0,0,0,0.3)
+					color white
+					margin 0
+					padding 0.5em
+					text-align center
+					font-weight 500
+			
+			.middle_cont
+				margin 0 auto
+				max-width 100%
+				min-height 160px
+				padding-top 3em
+				position relative
+				width 100%
+				text-align center
+				overflow hidden
+
+				.row
+					margin-bottom 1em
+					.col-lg-12
+						padding-left 15px
+						.foto
+							background gris_claro
+							width 100px
+							height 100px
+							border 1px solid color_texto
+							margin 0 auto 
+							position relative
+
+							img
+								width 100%
+								max-width 100%
+
+
+						.into
+							margin 2em
+							text-align center
+
+							input
+								border 0
+								border-radius 2px
+								color rgba(black,0.8)
+								font-weight 500
+								background gris_claro
+								text-decoration underline
+								display block
+
+								&:hover
+									font-weight 600
+							
+							p
+								color color_texto
+			.bottom_cont
+				background rgba(color_texto,0.3)
+				border-top 1px solid color_texto
+				padding 2em 0
+				text-align center
+
+				.update_photo
+					background azul
+					border 0
+					border-bottom 4px solid #076a9a
+					border-radius 2px
+					color white
+					padding .5em 1em
+					text-decoration none
+					margin 1em
+
+					&:hover
+						background rgba(azul,0.8)
+
+			.last_cont
+				background rgba(color_texto,0.08)
+				text-align center
+
+				.registro
+				.forget_pass
+					color color_texto
+					display block
+					padding 0.2em
+					text-decoration none
+					&:before 
+						content "|"
+					&:after 
+						content "|"
+
+					&:hover
+						color black
+		
+					
+@media screen and (min-width:480px)
+	.max_content_subir_foto
+		margin-top 60px
+
+		.min_content
+			background white
+			.box
+				margin 0 auto
+				margin-bottom 3.5em
+				margin-top 3.5em
+				width 80%
+			
+
+@media screen and (min-width:800px)
+	.max_content_subir_foto
+		margin-top 60px
+
+		.min_content
+			box-shadow 2px 0 10px rgba(0,0,0,0.5)
+			margin 0 auto
+			width 80%
+			
+			.box
+				width 60%
+				.middle_cont
+					max-width 80%
+			
+				.last_cont
+					.registro
+					.forget_pass
+						display inline-block
+						padding 0.5em
+					
+
+@media screen and (min-width:1200px)
+	.max_content_subir_foto
+		margin-top 60px
+
+		.min_content
+			width 1000px
+
+			.box
+				width 50%
+
+/*TERMINAN ESTILOS PARA SUBIR FOTOS*/
+
+
+
+/*INICIAN ESTILOS CSS ELEMENTOS GENERALES*/
+/*ui*/
+.boton_rojo
+	background rgba(rojo,0.8)
+	border-radius 3px
+	color white
+	display inline-block
+	font-size 1.1em
+	margin 0.5em 0
+	padding 0.5em 1.5em
+	text-decoration none
+
+	&:hover
+		background rgba(rojo,0.6)
+
+.boton_azul
+	background azul
+	border-radius 2px
+	color white
+	display inline-block
+	font-size 1.1em
+	margin 0.5em 0
+	padding 0.5em 2em
+	text-decoration none
+
+	&:hover
+		background rgba(azul,0.9)
+
+.boton_cancelar
+	background rojo
+	border-radius 2px
+	color white
+	display inline-block
+	font-size 1.1em
+	margin 0.5em 0
+	padding 0.5em 2em
+	text-decoration none
+
+	&:hover
+		background rgba(rojo,0.9)
+
+.btn-rojo
+	background rojo
+	border-radius 1px
+	padding .8em
+
+.btn-azul
+	background azul
+	border-radius 1.5px
+	padding .8em
+
+.btn-verde
+	background verde_claro
+	border-radius 1.5px
+	padding .8em
+
+.btn-amarillo
+	background amarillo
+	border-radius 1.5px
+	padding .8em
+	text-align center
+
+.input_normal
+	background-color white
+	border 1px solid #b5b5b5
+	border-radius 3px
+	box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+	box-sizing border-box
+	color color_texto
+	margin-bottom 1em
+	outline 0
+	padding 10px
+	width 240px
+
+.input_mini
+	background-color white
+	border 1px solid #b5b5b5
+	border-radius 3px
+	box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+	box-sizing border-box
+	color color_texto
+	margin-bottom 1em
+	outline 0
+	padding 10px
+	width 50px
+
+
+.text_area
+	background-color white
+	border 1px solid #b5b5b5
+	border-radius 3px
+	box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+	box-sizing border-box
+	color color_texto
+	font-size 14px
+	height 150px
+	line-height 20px
+	margin 0 1em 1em 1em
+	max-width 90%
+	resize none
+	width 450px
+
+.radio
+	margin-bottom 0.5em
+	width 50px
+
+.foto_perfil
+	position relative
+	
+	.foto
+		border-bottom 1px solid rgba(color_texto,0.3)
+		border-radius 50%
+		display block
+		height 75px
+		margin 0 auto
+		vertical-align top
+		width 75px
+
+/**/
+.saber_mas
+	background white
+	border-bottom 1px solid rgba(color_texto,0.3)
+	padding 0.2em
+	text-align center
+
+	a
+		color color_texto
+		padding 0.5em
+		text-decoration none 
+		&:hover
+			text-decoration underline
+/**/
+
+
+/*Clases para displays*/
+.display_block
+	display block
+
+.display_inline_block
+	display inline-block
+
+.display_none
+	display none
+
+.ver_registro
+	background rojo
+
+	a
+		&:before
+			content ">"
+
+
+/*Indicador de la ruta en la pagina*/
+.ruta
+	background rgba(gray,0.1) 
+	border-bottom 1px solid rgba(color_texto,0.6)
+
+	.raiz
+		color rgba(color_texto,0.5)
+		margin 0
+		padding 0.5em
+
+		a
+			color color_texto
+			text-decoration none
+
+
+
+/*Buscador para profesionales y proyectos*/
+.buscador
+	background rgba(gray,0.4) 
+	border-bottom 4px solid rgba(gray,0.5)
+	margin-bottom 1em
+	max-width 100%
+	padding 0.5em 
+	text-align center
+
+	.elementos
+		position relative
+		text-align center
+
+		.search
+			background-color #f6f6f6
+			border 1px solid #b5b5b5
+			box-shadow 0 0 10px rgba(204,204,204,0.5) inset
+			box-sizing border-box
+			margin 0 auto
+			padding 7px 0
+			width 73%
+			display inline-block
+			vertical-align middle
+
+			&:before
+				color gray
+				content "*"
+				margin-left .3em	
+				vertical-align top
+
+		.input_search
+			background #f6f6f6
+			border 0 
+			border-radius 2px
+			color gray
+			width 88%
+
+			&:focus
+				outline 0
+											
+		.buscar
+			background rgba(azul,0.8)
+			/*border-bottom 3px solid #076a9a*/
+			box-shadow 2px 2px 10px rgba(black, 0.3)
+			color white
+			padding 8px 0.8em
+			text-decoration none
+			border-radius 3px
+			margin-bottom 1em
+			vertical-align middle
+
+			&:hover
+				background rgba(azul,0.6)
+
+/*Panel derecho de categorias para profesionales y proyectos*/
+.aside
+	background gris_claro
+	border 1px solid rgba(color_texto,0.6)
+	border-radius 5px 5px 0 0 
+	margin-bottom 1em
+	margin-right 0.5em
+	margin-top 0
+	overflow hidden
+	width 29%
+	padding 0
+
+	.categorias
+		padding 0.5em
+
+		.categoria
+			display block
+			margin-bottom 1em
+
+			ul
+				padding 0
+	
+				li
+					list-style none
+					color rgba(black,0.7)
+					line-height 25px
+					font-weight 500
+
+			.tittle_cat
+				border-bottom 2px solid rgba(color_texto,0.5)
+				color color_texto
+				font-size 1.2em
+				font-weight 700
+				padding-right 1em
+				text-align right
+				text-transform uppercase
+				width 100%
+				margin 0
+
+				a
+				strong
+					font-size 12px
+					text-decoration none
+					text-transform capitalize
+
+				
+					
+														
+			.check
+				background gray
+				display inline-block
+				width 40px
+
+
+
+/*TERMIAN ESTILOS CSS ELEMENTOS GENERALES*/
