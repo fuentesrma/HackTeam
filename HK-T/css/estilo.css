@@ -1,0 +1,528 @@
+body{background:#e1e8ed;font-family:'Open Sans','Arial','Sans-serif';font-size:16px}
+.foot_index{bottom:0}
+footer,.foot_index{background:#3b95d1;color:rgba(255,255,255,0.5);text-align:center;width:100%;}
+footer .about_us,.foot_index .about_us{background:#07749f;margin:0;max-width:100%;padding-left:0;position:relative;}
+footer .about_us li,.foot_index .about_us li{display:inline-block;padding:.5em;position:relative;}
+footer .about_us li a,.foot_index .about_us li a{color:#fff;text-decoration:none;}
+footer .about_us li a:hover,.foot_index .about_us li a:hover{text-decoration:underline}
+footer h3,.foot_index h3{font-size:14px;font-weight:normal;margin:0;padding-bottom:1em;}
+footer h3 strong,.foot_index h3 strong{display:block}
+footer h3 .footer_text:before,.foot_index h3 .footer_text:before,footer h3 .footer_text:after,.foot_index h3 .footer_text:after{content:" - "}
+nav{background:#fff;box-shadow:0 1px 0 rgba(0,0,0,0.2);box-sizing:border-box;height:60px;position:fixed;text-align:center;top:0;width:100%;z-index:200;}
+nav .menu_principal{height:77px;line-height:60px;margin:0 auto;max-width:1200px;overflow-x:auto;padding:0;white-space:nowrap;}
+nav .menu_principal::-webkit-scrollbar{display:none}
+nav .menu_principal .logo{border-bottom:none;}
+nav .menu_principal .logo a{font-size:17px;}
+nav .menu_principal .logo a img{margin:0 auto;margin-right:.5em;position:relative;vertical-align:middle;width:60px}
+nav .menu_principal li{display:inline-block;margin:-2px;}
+nav .menu_principal li a{box-sizing:border-box;color:#66757f;display:block;font-weight:300;height:60px;padding:0 .2em;text-align:center;text-decoration:none;width:167px}
+nav .menu_principal li .opp_funciona{border-bottom:3px solid #1ba0e1;}
+nav .menu_principal li .opp_funciona:hover{-webkit-transition:.2s background-color;background:#1ba0e1;color:#fff;transition:.2s}
+nav .menu_principal li .opp_profesionales{border-bottom:3px solid #e74c3c;}
+nav .menu_principal li .opp_profesionales:hover{-webkit-transition:.2s background-color;background:#e74c3c;color:#fff;transition:.2s}
+nav .menu_principal li .opp_proyectos{border-bottom:3px solid #2ecc71;}
+nav .menu_principal li .opp_proyectos:hover{-webkit-transition:.2s background-color;background:#2ecc71;color:#fff;transition:.2s}
+nav .menu_principal li .opp_get_account{border-bottom:3px solid #f8c438;}
+nav .menu_principal li .opp_get_account:hover{-webkit-transition:.2s background-color;background:#f8c438;color:#fff;transition:.2s}
+nav .menu_principal li .opp_login{background:#f8f8f8;border-bottom:3px solid #07749f;text-align:center;}
+nav .menu_principal li .opp_login:hover{-webkit-transition:.2s background-color;background:#e6e6e6;color:#808080;transition:.2s}
+.top_content_index{background:#213338;min-height:300px;overflow:hidden;margin-top:60px;padding:.5em 0;}
+.top_content_index .min_top{width:90%;margin:0 auto;padding-top:15px;}
+.top_content_index .min_top .left{overflow:hidden;}
+.top_content_index .min_top .left .data_content .titulo{margin:0;font-size:2em;color:#fff;text-align:center;font-weight:normal;line-height:35px;}
+.top_content_index .min_top .left .data_content .titulo strong{color:#f8c438;font-weight:bold;display:block}
+.top_content_index .min_top .left .data_content .lista .item{margin:0;padding:0;color:#fff;line-height:30px}
+.top_content_index .min_top .left .data_content .trabaja,.top_content_index .min_top .left .data_content .contrata{-webkit-transition:width .1s;border:0;border-radius:3px;display:block;font-weight:bold;margin:0 auto;margin-bottom:1em;text-align:center;text-transform:uppercase;transition:width .1s;width:80%;text-decoration:none}
+.top_content_index .min_top .left .data_content .trabaja{background:#ffc33e;color:#b36929;border-bottom:3px solid #b36929;}
+.top_content_index .min_top .left .data_content .trabaja:hover{background:rgba(255,195,62,0.9)}
+.top_content_index .min_top .left .data_content .contrata{background:#008fd5;color:#fff;border-bottom:3px solid #025781;}
+.top_content_index .min_top .left .data_content .contrata:hover{background:rgba(0,143,213,0.9)}
+.contenedor_registro{background:#e1e8ed;min-height:200px;padding:.5em 0;}
+.contenedor_registro .min_registro{width:90%;margin:0 auto;text-align:center;overflow:hidden;}
+.contenedor_registro .min_registro h2{margin:0;color:#66757f}
+.contenedor_registro .min_registro .campos input{padding:.7em;border-radius:3px;background-color:#fff;border:1px solid #b5b5b5;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;color:rgba(0,0,0,0.7);margin:.6em 0;outline:0;vertical-align:middle;max-width:100%}
+.contenedor_registro .min_registro .send_registro a{-webkit-transition:width .1s;background:#df4639;border:0;border-bottom:3px solid #9c291f;border-radius:3px;color:#fff;display:block;font-weight:bold;margin:.5em auto;text-align:center;text-transform:uppercase;transition:width .1s;width:80%;text-decoration:none}
+.middle_content{background:#2ecc71;}
+.bottom_content{background:#fff;}
+.middle_content,.bottom_content{padding:.5em 0;overflow:hidden;background:#3b95d1;}
+.middle_content .min_cont,.bottom_content .min_cont{text-align:center;}
+.middle_content .min_cont h2,.bottom_content .min_cont h2{margin:0;font-size:1.6em;color:#fff}
+.middle_content .min_cont .bubbles,.bottom_content .min_cont .bubbles{padding:0;margin:0;width:100%;}
+.middle_content .min_cont .bubbles .box,.bottom_content .min_cont .bubbles .box{box-shadow:0 2px 10px rgba(0,0,0,0.3);margin:.5em;max-width:100%;padding:.2em;background:rgba(255,255,255,0.2);border-radius:50%;display:inline-block;width:130px;height:130px;}
+.middle_content .min_cont .bubbles .box:hover,.bottom_content .min_cont .bubbles .box:hover{cursor:pointer;background:rgba(255,255,255,0.5)}
+.middle_content .min_cont .bubbles .box img,.bottom_content .min_cont .bubbles .box img{width:100%;border-radius:50%}
+.confian{min-height:400px;padding:.5em 0;background:#213338;}
+.confian .inner_cont{width:90%;margin:0 auto;text-align:center;overflow:hidden;}
+.confian .inner_cont .title_funciona{margin:0;font-size:1.6em;color:#fff;margin-bottom:.5em}
+.confian .inner_cont .step{background:#f8f8f8;min-height:300px;margin-bottom:1em;}
+.confian .inner_cont .step .left{float:left;min-height:300px;width:20%;}
+.confian .inner_cont .step .left a{vertical-align:bottom;font-size:2em;font-weight:bold;display:block;color:#fff}
+.confian .inner_cont .step #left_1{background:#008fd5;border-left:3px solid #025781}
+.confian .inner_cont .step #left_2{background:#ffc33e;border-left:3px solid #b36929}
+.confian .inner_cont .step #left_3{background:#2ecc71;border-left:3px solid #07aa4c}
+.confian .inner_cont .step #left_4{background:#e74c3c;border-left:3px solid #9c291f}
+.confian .inner_cont .step .right{float:right;width:70%;position:relative;}
+.confian .inner_cont .step .right .top{position:absolute;top:0;right:0;height:100px}
+.confian .inner_cont .step .right .bottom{position:absolute;bottom:0;right:0;height:200px;}
+.confian .inner_cont .step .right .bottom p{margin:0}
+@media screen and (min-width: 800px){.top_content_index{background:url("../img/sld.png") #213338 no-repeat right;min-height:350px;background-size:auto 100%;}
+.top_content_index .min_top{max-width:70%;margin:0 auto;}
+.top_content_index .min_top .left{float:left;width:50%;}
+.top_content_index .min_top .left .data_content .titulo{font-size:2.5em;margin:0;text-align:left;line-height:45px;}
+.top_content_index .min_top .left .data_content .titulo strong{display:inline-block}
+.top_content_index .min_top .left .data_content .trabaja,.top_content_index .min_top .left .data_content .contrata{width:35%;display:inline-block;margin:1em}
+.contenedor_registro{min-height:190px;}
+.contenedor_registro .min_registro{margin:0 auto;text-align:center;}
+.contenedor_registro .min_registro .campos input{display:inline-block;max-width:80%;margin:.5em}
+.contenedor_registro .min_registro .send_registro{width:20%;margin:0 auto}
+.middle_content,.bottom_content{text-align:center;}
+.middle_content .min_cont .box img,.bottom_content .min_cont .box img{width:320px}
+.confian .inner_cont{margin:0 auto;width:95%}
+}.max_con_funciona{box-shadow:2px 2px 10px rgba(0,0,0,0.5);margin-top:60px;max-width:100%;overflow:hidden;}
+.max_con_funciona .min_con_funciona{max-width:100%;overflow:hidden;}
+.max_con_funciona .min_con_funciona .que_es_freelance{background:#f8f8f8;border:1px solid rgba(102,117,127,0.3);border-radius:5px 5px 0 0;margin:.5em;}
+.max_con_funciona .min_con_funciona .que_es_freelance .free{background:rgba(46,204,113,0.8);border-bottom:3px solid rgba(7,170,76,0.8);border-radius:5px 5px 0 0;box-shadow:0 0 6px rgba(0,0,0,0.3);color:#fff;margin:0;padding:.5em;text-align:center}
+.max_con_funciona .min_con_funciona .que_es_freelance p{color:#66757f;line-height:25px;margin:1em;text-align:justify}
+.max_con_funciona .min_con_funciona .video_como_funciona{background:#fff;box-shadow:2px 2px 10px rgba(0,0,0,0.3);display:block;margin:1.5em .5em 1.5em .5em;max-width:100%;position:relative;}
+.max_con_funciona .min_con_funciona .video_como_funciona .video_funciona{height:0;overflow:hidden;padding-bottom:56.25%;padding-top:30px;}
+.max_con_funciona .min_con_funciona .video_como_funciona .video_funciona iframe{display:block;height:100%;left:0;margin:0 auto;position:absolute;top:0;width:100%}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row{margin:1em auto;overflow:hidden;}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step{background:#f8f8f8;border:1px solid rgba(102,117,127,0.3);border-radius:5px 5px 0 0;height:600px;margin-bottom:1em;margin-left:1em;overflow:hidden;}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step .ribon_step{background:rgba(231,76,60,0.8);color:#fff;display:inline-block;font-size:3em;margin-bottom:0;margin-left:.5em;margin-top:0;overflow:hidden;padding:.4em;position:relative;}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step .ribon_step:before{border-bottom:15px solid #f8f8f8;border-left:14px solid transparent;border-right:14px solid transparent;bottom:0;content:"";position:absolute;text-align:center}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step h2{border-bottom:1.5px solid #66757f;clear:both;color:#66757f;display:block;float:right;font-size:1.2em;margin-top:1em;padding-left:3em;padding-right:.5em;top:0}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step .descripcion_step{color:#66757f;line-height:25px;margin-top:0;padding:.5em 1.5em;position:relative;text-align:justify}
+@media screen and (min-width: 480px){.max_con_funciona{margin-top:60px;}
+.max_con_funciona .min_con_funciona{background:#fff;}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step{height:380px}
+}@media screen and (min-width: 800px){.max_con_funciona{margin:0 auto;margin-top:60px;width:80%;}
+.max_con_funciona .min_con_funciona{box-shadow:0 0 6px rgba(0,0,0,0.2);}
+.max_con_funciona .min_con_funciona .video_como_funciona{margin:0 auto;margin-bottom:1.5em;margin-top:1.5em;max-width:50%}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step{height:550px}
+}@media screen and (min-width: 1200px){.max_con_funciona{margin-top:60px;width:1000px;}
+.max_con_funciona .min_con_funciona .que_es_freelance{width:70%;margin:1em auto}
+.max_con_funciona .min_con_funciona .pasos_como_funciona .row .step{height:350px}
+}.max_con_profesionales{margin-top:10px;}
+.max_con_profesionales .min_con_profesionales{padding-top:.2px;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:0 .5em 1.5em .5em;overflow:hidden;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content{background:#f8f8f8;border-radius:5px 5px 0 0;padding-top:.5em;text-align:center;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .foto{position:relative;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .foto img{border-radius:2%;border-radius:50%;display:block;height:75px;margin:0 auto;margin-bottom:-2.5px;vertical-align:top;width:75px}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .nombre{margin-top:.5em;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .nombre a{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none;text-transform:uppercase}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .grado_estudio{margin-top:.2em;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .grado_estudio a{color:#66757f;text-decoration:none}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .clasificacion{margin-top:.5em;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .clasificacion a{color:#f8c438;font-size:1.2em;text-decoration:none;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar{background:rgba(46,204,113,0.8);border-bottom:3px solid rgba(7,170,76,0.8);color:#f8f8f8;padding:.5em;text-align:center;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .pais,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .experiencia,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .concretados,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .cobro{display:inline-block;line-height:25px;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .pais:before,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .experiencia:before,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .concretados:before,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .cobro:before{content:"|"}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .pais:after,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .experiencia:after,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .concretados:after,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .cobro:after{content:"|"}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .pais a,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .experiencia a,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .concretados a,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .cobro a{color:#f8f8f8;text-decoration:none;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .pais a:hover,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .experiencia a:hover,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .concretados a:hover,.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar .cobro a:hover{text-decoration:underline}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .descripcion{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:.5em;position:relative;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .descripcion p{line-height:25px;margin:0;text-align:center}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .habilidades{border-bottom:1px solid rgba(102,117,127,0.3);padding:.5em;text-align:center;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .habilidades .habilidad{background:rgba(34,188,224,0.8);border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones{overflow:hidden;padding:1.2em 1em 1em 1em;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos{float:left;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos .up,.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos .down{font-size:1.2em;text-decoration:none}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos .up{color:#3f990f}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos .down{color:#e74c3c}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos .down_count,.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .votos .up_count{color:#66757f;font-size:15px;font-weight:500}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .contratar{float:right;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .contratar a{background:rgba(231,76,60,0.8);border-radius:3px;color:#fff;margin:0;padding:.5em 1em;text-decoration:none;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .acciones .contratar a:hover{background:rgba(231,76,60,0.6)}
+.max_con_profesionales .min_con_profesionales .aside{display:none}
+@media screen and (min-width:800px){.max_con_profesionales .min_con_profesionales{background:#fff;box-shadow:2px 0 10px rgba(0,0,0,0.5);margin:0 auto;overflow:hidden;width:80%;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content{display:inline-block;position:relative;width:100%;}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .top_content .foto{display:inline-block;float:left;margin-left:.5em;position:relative}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .next_bar{margin-top:.5em}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .descripcion p{text-align:left}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .habilidades:before{color:rgba(0,0,0,0.8);content:"Habilidades";display:block;font-size:1.1em}
+.max_con_profesionales .min_con_profesionales .profesionales .profesional .contratar{float:right;right:0}
+}@media screen and (min-width:1000px){.max_con_profesionales .min_con_profesionales .profesionales{display:inline-block;width:68%}
+.max_con_profesionales .min_con_profesionales .aside{display:inline-block;float:right}
+}@media screen and (min-width:1200px){.max_con_profesionales .min_con_profesionales{width:1000px;}
+.max_con_profesionales .min_con_profesionales .buscador .elementos .search{width:500px}
+}.max_con_proyectos{margin-top:5px;}
+.max_con_proyectos .min_con_proyectos{padding-top:.2px;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:0 .5em 1.5em .5em;overflow:hidden;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .top_content{background:#f8f8f8;border-radius:5px 5px 0 0;padding-bottom:.5em;padding-top:.5em;text-align:center;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .top_content .title_proyecto{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar{background:rgba(46,204,113,0.8);border-bottom:3px solid rgba(7,170,76,0.8);color:#f8f8f8;padding:.5em;text-align:center;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .categoria,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .hace_cuanto,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .propuestas,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .plazo,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .cobro{display:inline-block;line-height:25px;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .categoria:before,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .hace_cuanto:before,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .propuestas:before,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .plazo:before,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .cobro:before{content:"|"}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .categoria:after,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .hace_cuanto:after,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .propuestas:after,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .plazo:after,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .cobro:after{content:"|"}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .categoria a,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .hace_cuanto a,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .propuestas a,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .plazo a,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .next_bar .cobro a{color:#fff;text-decoration:none}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .descripcion{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:.5em;position:relative;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .descripcion p{line-height:25px;margin:0}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .habilidades{border-bottom:1px solid rgba(102,117,127,0.3);padding:.5em;text-align:center;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .habilidades .habilidad{background:rgba(34,188,224,0.8);border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .posteador,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .saber_mas{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:.2em;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .posteador a,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .saber_mas a{color:#66757f;padding:.5em;text-decoration:none;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .posteador a:hover,.max_con_proyectos .min_con_proyectos .proyectos .proyecto .saber_mas a:hover{text-decoration:underline}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .enviar_propuesta{padding:1em;position:relative;text-align:center;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .enviar_propuesta a{background:rgba(231,76,60,0.8);border-radius:3px;color:#fff;padding:.5em 1.5em;text-decoration:none;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .enviar_propuesta a:hover{background:rgba(231,76,60,0.6)}
+.max_con_proyectos .min_con_proyectos .aside{display:none}
+@media screen and (min-width:800px){.max_con_proyectos .min_con_proyectos{background:#fff;box-shadow:2px 0 10px rgba(0,0,0,0.5);margin:0 auto;overflow:hidden;width:80%;}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .habilidades:before{color:#66757f;content:"Habilidades requeridas";display:block}
+.max_con_proyectos .min_con_proyectos .proyectos .proyecto .enviar_propuesta{float:right;right:0}
+}@media screen and (min-width:1000px){.max_con_proyectos .min_con_proyectos .proyectos{display:inline-block;width:100%}
+.max_con_proyectos .min_con_proyectos .aside{display:inline-block;float:right}
+}@media screen and (min-width:1200px){.max_con_proyectos .min_con_proyectos{width:1000px;}
+.max_con_proyectos .min_con_proyectos .buscador .elementos .search{width:250px}
+}.max_content_login{margin-top:60px;}
+.max_content_login .min_content{overflow:hidden;padding-top:.2px;}
+.max_content_login .min_content .box{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:0 auto;margin-bottom:6em;margin-top:1em;position:relative;width:95%;}
+.max_content_login .min_content .box .top_cont h3{background:rgba(46,204,113,0.8);border-bottom:3px solid rgba(7,170,76,0.8);border-radius:5px 5px 0 0;box-shadow:0 0 6px rgba(0,0,0,0.3);color:#fff;margin:0;padding:.5em;text-align:center;font-weight:800;text-transform:uppercase}
+.max_content_login .min_content .box .middle_cont{margin:0 auto;max-width:100%;min-height:160px;padding-top:2em;position:relative;width:300px;}
+.max_content_login .min_content .box .middle_cont .nombre_usuario,.max_content_login .min_content .box .middle_cont .email_usuario{background-color:#f6f6f6;border:1px solid #b5b5b5;border-radius:5px;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;box-sizing:border-box;margin:0 auto;margin-bottom:1.5em;padding:5px 0;width:95%;}
+.max_content_login .min_content .box .middle_cont .nombre_usuario input,.max_content_login .min_content .box .middle_cont .email_usuario input{background:#f6f6f6;border:0;border-radius:2px;color:#808080;width:88%;}
+.max_content_login .min_content .box .middle_cont .nombre_usuario input:focus,.max_content_login .min_content .box .middle_cont .email_usuario input:focus{outline:0}
+.max_content_login .min_content .box .middle_cont .nombre_usuario:before{color:#808080;content:"\e601";font-family:"gt-icons";margin-left:.3em;vertical-align:middle}
+.max_content_login .min_content .box .middle_cont .email_usuario:before{color:#808080;content:"\e602";font-family:"gt-icons";margin-left:.3em;vertical-align:middle}
+.max_content_login .min_content .box .middle_cont .check{background:#808080;color:#66757f;display:inline-block;width:35px}
+.max_content_login .min_content .box .bottom_cont{background:rgba(102,117,127,0.2);border-top:1px solid #66757f;padding:2em 0 1em 0;text-align:center;}
+.max_content_login .min_content .box .bottom_cont .iniciar{background:#008fd5;border:0;border-bottom:4px solid #076a9a;border-radius:2px;color:#fff;padding:.5em;width:50%;}
+.max_content_login .min_content .box .bottom_cont .iniciar:hover{background:rgba(0,143,213,0.8)}
+.max_content_login .min_content .box .last_cont{background:rgba(102,117,127,0.08);text-align:center;}
+.max_content_login .min_content .box .last_cont .registro,.max_content_login .min_content .box .last_cont .forget_pass{color:#66757f;display:block;padding:.2em;text-decoration:none;}
+.max_content_login .min_content .box .last_cont .registro:before,.max_content_login .min_content .box .last_cont .forget_pass:before{content:"|"}
+.max_content_login .min_content .box .last_cont .registro:after,.max_content_login .min_content .box .last_cont .forget_pass:after{content:"|"}
+.max_content_login .min_content .box .last_cont .registro:hover,.max_content_login .min_content .box .last_cont .forget_pass:hover{color:#000}
+@media screen and (min-width:480px){.max_content_login{margin-top:60px;}
+.max_content_login .min_content{background:#fff;}
+.max_content_login .min_content .box{margin:0 auto;margin-bottom:3.5em;margin-top:2em;width:80%}
+}@media screen and (min-width:800px){.max_content_login{margin-top:60px;}
+.max_content_login .min_content{box-shadow:2px 0 10px rgba(0,0,0,0.5);margin:0 auto;width:80%;}
+.max_content_login .min_content .box{width:60%;}
+.max_content_login .min_content .box .middle_cont{max-width:80%}
+.max_content_login .min_content .box .last_cont .registro,.max_content_login .min_content .box .last_cont .forget_pass{display:inline-block;padding:.5em}
+}@media screen and (min-width:1200px){.max_content_login{margin-top:60px;}
+.max_content_login .min_content{width:1000px;}
+.max_content_login .min_content .box{width:35%}
+}.max_content_registro{margin-top:60px;}
+.max_content_registro .min_content{overflow:hidden;padding-top:.2px;}
+.max_content_registro .min_content .box{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:0 auto;margin-bottom:6em;margin-top:1em;position:relative;width:95%;}
+.max_content_registro .min_content .box .top_cont h3{background:rgba(46,204,113,0.8);border-bottom:3px solid rgba(7,170,76,0.8);border-radius:5px 5px 0 0;box-shadow:0 0 6px rgba(0,0,0,0.3);color:#fff;margin:0;padding:.5em;text-align:center;font-weight:800;text-transform:uppercase}
+.max_content_registro .min_content .box .middle_cont{margin:0 auto;max-width:100%;min-height:160px;padding-top:2em;position:relative;width:300px;}
+.max_content_registro .min_content .box .middle_cont .nombre_usuario,.max_content_registro .min_content .box .middle_cont .email_usuario,.max_content_registro .min_content .box .middle_cont .pass_usuario{background-color:#f6f6f6;border:1px solid #b5b5b5;border-radius:5px;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;box-sizing:border-box;margin:2em auto;padding:5px 0;width:95%;}
+.max_content_registro .min_content .box .middle_cont .nombre_usuario input,.max_content_registro .min_content .box .middle_cont .email_usuario input,.max_content_registro .min_content .box .middle_cont .pass_usuario input{background:#f6f6f6;border:0;border-radius:2px;color:#808080;width:88%;}
+.max_content_registro .min_content .box .middle_cont .nombre_usuario input:focus,.max_content_registro .min_content .box .middle_cont .email_usuario input:focus,.max_content_registro .min_content .box .middle_cont .pass_usuario input:focus{outline:0}
+.max_content_registro .min_content .box .middle_cont .nombre_usuario:before{color:#808080;content:"\e601";font-family:"gt-icons";margin-left:.3em;vertical-align:middle}
+.max_content_registro .min_content .box .middle_cont .email_usuario:before{color:#808080;content:"\e602";font-family:"gt-icons";margin-left:.3em;vertical-align:middle}
+.max_content_registro .min_content .box .middle_cont .pass_usuario:before{color:#808080;content:"\e602";font-family:"gt-icons";margin-left:.3em;vertical-align:middle}
+.max_content_registro .min_content .box .bottom_cont{background:rgba(102,117,127,0.2);border-top:1px solid #66757f;padding:1em 0 1em 0;text-align:center;}
+.max_content_registro .min_content .box .bottom_cont .term_accept{background:#808080;color:#66757f;display:inline-block;margin-bottom:1em;width:30px}
+.max_content_registro .min_content .box .bottom_cont .show_term{color:#66757f}
+.max_content_registro .min_content .box .bottom_cont .iniciar{background:#008fd5;border:0;border-bottom:4px solid #076a9a;border-radius:2px;color:#fff;padding:.5em;width:50%;}
+.max_content_registro .min_content .box .bottom_cont .iniciar:hover{background:rgba(0,143,213,0.8)}
+.max_content_registro .min_content .box .last_cont{background:rgba(102,117,127,0.08);text-align:left;}
+.max_content_registro .min_content .box .last_cont .i_user{color:#66757f;display:block;padding:.2em;text-decoration:none;}
+.max_content_registro .min_content .box .last_cont .i_user:before{content:"|"}
+.max_content_registro .min_content .box .last_cont .i_user:after{content:"|"}
+.max_content_registro .min_content .box .last_cont .i_user:hover{color:#000}
+@media screen and (min-width:480px){.max_content_registro{margin-top:60px;}
+.max_content_registro .min_content{background:#fff;}
+.max_content_registro .min_content .box{margin:0 auto;margin-bottom:3.5em;margin-top:2em;width:80%}
+}@media screen and (min-width:800px){.max_content_registro{margin-top:60px;}
+.max_content_registro .min_content{box-shadow:2px 0 10px rgba(0,0,0,0.5);margin:0 auto;width:80%;}
+.max_content_registro .min_content .box{width:60%;}
+.max_content_registro .min_content .box .middle_cont{max-width:80%}
+.max_content_registro .min_content .box .last_cont .registro,.max_content_registro .min_content .box .last_cont .forget_pass{display:inline-block;padding:.5em}
+}@media screen and (min-width:1200px){.max_content_registro{margin-top:60px;}
+.max_content_registro .min_content{width:1000px;}
+.max_content_registro .min_content .box{width:35%}
+}.max_panel{margin-top:60px;overflow:hidden;}
+.max_panel .ruta .raiz .logout{float:right;right:0;}
+.max_panel .ruta .raiz .logout:hover{text-decoration:underline}
+.max_panel .ruta .raiz .logout:after,.max_panel .ruta .raiz .logout:before{content:" | "}
+.max_panel .min_panel{padding-top:.5em;position:relative;}
+.max_panel .min_panel .content_opciones{margin:0 auto;width:90%;}
+.max_panel .min_panel .content_opciones .opciones{font-size:1.2em;padding:.5em;width:100%;color:#66757f}
+.max_panel .min_panel .opcion,.max_panel .min_panel #opcion_1{margin-top:1em;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:1em;overflow:hidden;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content{background:#f8f8f8;border-radius:5px 5px 0 0;padding-bottom:.5em;padding-top:.5em;text-align:center;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .foto_perfil a,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .foto_perfil a{color:#66757f;font-size:12px;margin:0 auto;padding:2px 1.2em;text-decoration:none;border-radius:5px;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .foto_perfil a:hover,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .foto_perfil a:hover{text-decoration:underline}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .nombre,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .nombre{margin-top:.5em;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .nombre a,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .nombre a{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none;text-transform:uppercase}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .grado_estudio,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .grado_estudio{margin-top:.2em;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .grado_estudio a,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .grado_estudio a{color:#66757f;text-decoration:none}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .clasificacion,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .clasificacion{margin-bottom:.5em;margin-top:.5em;}
+.max_panel .min_panel .opcion .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .clasificacion a,.max_panel .min_panel #opcion_1 .profesional /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .clasificacion a{color:#f8c438;font-size:1.2em;text-decoration:none}
+.max_panel .min_panel .opcion .to_work,.max_panel .min_panel #opcion_1 .to_work{background:rgba(128,128,128,0.1);border-left:15px solid #fff;border-right:15px solid #fff;color:#66757f;font-weight:bold;padding:.57em;font-size:1.3em;position:relative;text-align:center;text-transform:uppercase;margin:.8em;border:1px solid rgba(102,117,127,0.6);}
+.max_panel .min_panel .opcion .to_work:before,.max_panel .min_panel #opcion_1 .to_work:before{border-bottom:26px solid transparent;border-left:20px solid rgba(231,76,60,0.8);border-top:26px solid transparent;content:"";left:0;position:absolute;top:0}
+.max_panel .min_panel .opcion .to_work:after,.max_panel .min_panel #opcion_1 .to_work:after{border-bottom:26px solid transparent;border-right:20px solid rgba(231,76,60,0.8);border-top:26px solid transparent;content:"";position:absolute;right:0;top:0}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:1em;overflow:hidden;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content{background:#f8f8f8;border-radius:5px 5px 0 0;padding-bottom:.5em;padding-top:.5em;text-align:center;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .title_proyecto,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .top_content .title_proyecto{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar{background:rgba(46,204,113,0.8);border-bottom:3px solid rgba(7,170,76,0.8);box-shadow:0 1px 10px rgba(0,0,0,0.5);color:#f8f8f8;padding:.5em;text-align:center;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro{display:inline-block;line-height:25px;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria:before,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria:before,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto:before,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto:before,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas:before,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas:before,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo:before,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo:before,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro:before,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro:before{content:"|"}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria:after,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria:after,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto:after,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto:after,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas:after,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas:after,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo:after,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo:after,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro:after,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro:after{content:"|"}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .categoria a,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .hace_cuanto a,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .propuestas a,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .plazo a,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .next_bar .cobro a{color:#fff;text-decoration:none}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .descripcion,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .descripcion{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:.5em;position:relative;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .descripcion p,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .descripcion p{line-height:30px;margin:0;text-align:left}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .habilidades,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .habilidades{border-bottom:1px solid rgba(102,117,127,0.3);padding:.5em;text-align:center;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .habilidades .habilidad,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .habilidades .habilidad{background:#22bce0;border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .posteador,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .posteador,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:.2em;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .posteador a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .posteador a,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas a,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas a{color:#66757f;padding:.5em;text-decoration:none;}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .posteador a:hover,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .posteador a:hover,.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas a:hover,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas a:hover{text-decoration:underline}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .saber_mas{text-align:center}
+.max_panel .min_panel .opcion .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .enviar_propuesta,.max_panel .min_panel #opcion_1 .proyectos .proyecto /*Recuerda para estos se puede crear una clase general y usarla para todos*/ .enviar_propuesta{padding:1em;position:relative;text-align:center}
+.max_panel .min_panel #opcion_2 .inner_content{margin-top:1em;}
+.max_panel .min_panel #opcion_2 .inner_content .datos_acceso{border-bottom:1px solid rgba(102,117,127,0.3);padding-bottom:1em;}
+.max_panel .min_panel #opcion_2 .inner_content .datos_acceso .change_pass .cambiar{background:rgba(102,117,127,0.6);color:#fff;padding:.2em 2em;text-decoration:none;width:50px;}
+.max_panel .min_panel #opcion_2 .inner_content .datos_acceso .change_pass .cambiar:hover{background:#1ba0e1}
+.max_panel .min_panel #opcion_2 .inner_content .datos_persona .guardar_cuenta{margin:.5em 0 .5em 0}
+.max_panel .min_panel #opcion_2 .inner_content .datos_persona .dar_baja{left:0;margin:3em 0 0 0;text-align:left;}
+.max_panel .min_panel #opcion_2 .inner_content .datos_persona .dar_baja a{color:#66757f;padding:.2em .5em;text-decoration:none;}
+.max_panel .min_panel #opcion_2 .inner_content .datos_persona .dar_baja a:before{content:" | "}
+.max_panel .min_panel #opcion_2 .inner_content .datos_persona .dar_baja a:hover{background:rgba(231,76,60,0.7);color:#fff}
+.max_panel .min_panel #opcion_3 .inner_content{margin-top:1em;}
+.max_panel .min_panel #opcion_3 .inner_content .guardar_perfil{margin:.5em 0 .5em 0}
+.max_panel .min_panel #opcion_4 .inner_content{margin-top:1em;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content{background:#f8f8f8;border-radius:5px 5px 0 0;padding-bottom:.5em;padding-top:1em;text-align:center;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .nombre{border-top:1px solid rgba(102,117,127,0.3);background:#fff;margin-top:1em;padding-top:1em;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .nombre a{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none;text-transform:uppercase}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .grado_estudio{background:#fff;padding-top:.5em;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .grado_estudio a{color:#66757f;text-decoration:none}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .clasificacion{background:#fff;padding-top:1em;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .clasificacion a{color:#f8c438;font-size:1.2em;text-decoration:none}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .pais{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:.5em;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .pais p{font-size:1.2em;margin:0}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .about_me{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;padding:1em;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .about_me .label{font-weight:600;margin:0}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .about_me .descript_me{margin:0;text-align:left}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .habilidades{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);margin-bottom:1.5em;padding:1em;text-align:center;}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .habilidades .tag_habi{color:#66757f;font-weight:600;margin:0}
+.max_panel .min_panel #opcion_4 .inner_content .client_profile .data_content .habilidades .habilidad{background:#22bce0;border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none}
+.max_panel .min_panel #opcion_5 .inner_content,.max_panel .min_panel #opcion_7 .inner_content{margin-top:1em;}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito{border:1px solid rgba(102,117,127,0.3);margin:1em;padding-bottom:1em;}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .contacto,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .contacto,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .contacto,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .contacto{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .foto_perfil,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .foto_perfil,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .foto_perfil,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .foto_perfil{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .nombre,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .nombre,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .nombre,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .nombre{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:.5em;}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .nombre a,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .nombre a,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .nombre a,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .nombre a{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none;text-transform:uppercase}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .grado_estudio,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .grado_estudio,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .grado_estudio,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .grado_estudio{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .grado_estudio a,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .grado_estudio a,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .grado_estudio a,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .grado_estudio a{color:#66757f;text-decoration:none}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .clasificacion,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .clasificacion,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .clasificacion,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .clasificacion{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);margin-bottom:1em;padding:1em;}
+.max_panel .min_panel #opcion_5 .inner_content .clientes_favoritos .favorito .clasificacion a,.max_panel .min_panel #opcion_7 .inner_content .clientes_favoritos .favorito .clasificacion a,.max_panel .min_panel #opcion_5 .inner_content .profesionales_favoritos .favorito .clasificacion a,.max_panel .min_panel #opcion_7 .inner_content .profesionales_favoritos .favorito .clasificacion a{color:#f8c438;font-size:1.2em;text-decoration:none}
+.max_panel .min_panel #opcion_6 .inner_content,.max_panel .min_panel #opcion_8 .inner_content{margin-top:1em;}
+.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado{border:1px solid rgba(102,117,127,0.3);margin:1em;padding-bottom:1em;}
+.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .nombre,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .nombre,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .nombre,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .nombre,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .nombre,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .nombre,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .nombre,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .nombre{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;}
+.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .nombre a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .nombre a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .nombre a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .nombre a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .nombre a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .nombre a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .nombre a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .nombre a{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none}
+.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .categoria,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .categoria,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .categoria,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .categoria,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .categoria,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .categoria,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .categoria,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .categoria,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .posteador,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .posteador,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .posteador,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .posteador,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .posteador,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .posteador,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .posteador,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .posteador,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .cliente,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .cliente,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .cliente,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .cliente,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .cliente,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .cliente,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .cliente,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .cliente,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .pais_origen,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .pais_origen,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .pais_origen,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .pais_origen,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .pais_origen,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .pais_origen,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .pais_origen,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .pais_origen,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .status,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .status,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .status,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .status,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .status,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .status,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .status,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .status,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .propuestas,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .propuestas,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .propuestas,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .propuestas,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .propuestas,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .propuestas,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .propuestas,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .propuestas{background:#fff;padding:.8em;}
+.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .categoria a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .categoria a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .categoria a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .categoria a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .categoria a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .categoria a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .categoria a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .categoria a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .posteador a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .posteador a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .posteador a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .posteador a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .posteador a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .posteador a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .posteador a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .posteador a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .cliente a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .cliente a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .cliente a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .cliente a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .cliente a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .cliente a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .cliente a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .cliente a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .pais_origen a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .pais_origen a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .pais_origen a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .pais_origen a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .pais_origen a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .pais_origen a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .pais_origen a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .pais_origen a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .status a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .status a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .status a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .status a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .status a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .status a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .status a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .status a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .propuestas a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .propuestas a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .propuestas a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .propuestas a,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .propuestas a,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .propuestas a,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .propuestas a,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .propuestas a{color:#66757f;text-decoration:none}
+.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .realizado .status,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .realizado .status,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .realizado .status,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .realizado .status,.max_panel .min_panel #opcion_6 .inner_content .proyectos_realizados .publicado .status,.max_panel .min_panel #opcion_8 .inner_content .proyectos_realizados .publicado .status,.max_panel .min_panel #opcion_6 .inner_content .mis_publicaciones .publicado .status,.max_panel .min_panel #opcion_8 .inner_content .mis_publicaciones .publicado .status{border-bottom:1px solid rgba(102,117,127,0.3);margin-bottom:1em}
+.max_panel .min_panel #opcion_9 .inner_content .nuevo_proyecto .registrar_proyecto{margin:1em 0 .5em 0}
+.max_panel .min_panel #opcion_2,.max_panel .min_panel #opcion_3,.max_panel .min_panel #opcion_4,.max_panel .min_panel #opcion_5,.max_panel .min_panel #opcion_6,.max_panel .min_panel #opcion_7,.max_panel .min_panel #opcion_8,.max_panel .min_panel #opcion_9{margin:.5em;padding:0 .5em;}
+.max_panel .min_panel #opcion_2 .tag,.max_panel .min_panel #opcion_3 .tag,.max_panel .min_panel #opcion_4 .tag,.max_panel .min_panel #opcion_5 .tag,.max_panel .min_panel #opcion_6 .tag,.max_panel .min_panel #opcion_7 .tag,.max_panel .min_panel #opcion_8 .tag,.max_panel .min_panel #opcion_9 .tag{color:rgba(0,0,0,0.6);margin:1em 0 0 0}
+.max_panel .min_panel #opcion_2 .inner_content,.max_panel .min_panel #opcion_3 .inner_content,.max_panel .min_panel #opcion_4 .inner_content,.max_panel .min_panel #opcion_5 .inner_content,.max_panel .min_panel #opcion_6 .inner_content,.max_panel .min_panel #opcion_7 .inner_content,.max_panel .min_panel #opcion_8 .inner_content,.max_panel .min_panel #opcion_9 .inner_content{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;padding-bottom:1em;text-align:center;}
+.max_panel .min_panel #opcion_2 .inner_content h1,.max_panel .min_panel #opcion_3 .inner_content h1,.max_panel .min_panel #opcion_4 .inner_content h1,.max_panel .min_panel #opcion_5 .inner_content h1,.max_panel .min_panel #opcion_6 .inner_content h1,.max_panel .min_panel #opcion_7 .inner_content h1,.max_panel .min_panel #opcion_8 .inner_content h1,.max_panel .min_panel #opcion_9 .inner_content h1{background:rgba(34,188,224,0.8);border-radius:5px 5px 0 0;color:#fff;font-size:1.3em;margin:0;padding:.2em;font-weight:500}
+.max_panel .min_panel #opcion_2 .tipo_cobro li,.max_panel .min_panel #opcion_3 .tipo_cobro li,.max_panel .min_panel #opcion_4 .tipo_cobro li,.max_panel .min_panel #opcion_5 .tipo_cobro li,.max_panel .min_panel #opcion_6 .tipo_cobro li,.max_panel .min_panel #opcion_7 .tipo_cobro li,.max_panel .min_panel #opcion_8 .tipo_cobro li,.max_panel .min_panel #opcion_9 .tipo_cobro li{list-style:none;text-align:left}
+.max_panel .menu_right{display:none}
+@media screen and (min-width: 800px){.max_panel{background:#fff;margin:0 auto;margin-top:60px;width:80%;}
+.max_panel .content_opciones{width:95%}
+}@media screen and (min-width: 1000px){.max_panel{background:#fff;margin-top:60px;width:1000px;}
+.max_panel .min_panel{float:left;position:relative;width:70%}
+.max_panel .menu_right{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);display:inline-block;height:100%;margin-top:73px;position:relative;width:28%;padding:0;}
+.max_panel .menu_right .navegacion{padding:0;}
+.max_panel .menu_right .navegacion li{border-bottom:1px solid rgba(102,117,127,0.3);list-style:none;margin:0;}
+.max_panel .menu_right .navegacion li p{display:inline-block;margin:0}
+.max_panel .menu_right .navegacion li a{color:#66757f;padding:1em;text-decoration:none;display:block;}
+.max_panel .menu_right .navegacion li a:hover{background:rgba(102,117,127,0.2)}
+}.max_details_proy{box-shadow:2px 2px 10px rgba(0,0,0,0.5);margin-top:60px;max-width:100%;overflow:hidden;}
+.max_details_proy .min_content{max-width:100%;overflow:hidden;}
+.max_details_proy .min_content .proyecto{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:1em;overflow:hidden;}
+.max_details_proy .min_content .proyecto .tag{display:block;margin-bottom:1em;font-weight:600;color:#66757f;margin:0}
+.max_details_proy .min_content .proyecto .nombre{background:#f8f8f8;padding:.5em;text-align:center;}
+.max_details_proy .min_content .proyecto .nombre a{color:#66757f;font-size:1.1em;font-weight:700;text-decoration:none;text-transform:uppercase}
+.max_details_proy .min_content .proyecto .categoria{background:rgba(46,204,113,0.8);border-bottom:4px solid #07aa4c;padding:.5em;text-align:center;}
+.max_details_proy .min_content .proyecto .categoria a{color:#fff;font-size:1.2em;font-weight:600;text-decoration:none}
+.max_details_proy .min_content .proyecto .descripcion{background:#f8f8f8;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;}
+.max_details_proy .min_content .proyecto .descripcion p{color:#66757f;line-height:30px;margin:0}
+.max_details_proy .min_content .proyecto .habilidades{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center;background:#fff;}
+.max_details_proy .min_content .proyecto .habilidades .habilidad{background:#22bce0;border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none}
+.max_details_proy .min_content .proyecto .telefono{background:#f8f8f8;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center;}
+.max_details_proy .min_content .proyecto .telefono p{margin:0;margin:.1em}
+.max_details_proy .min_content .proyecto .propuestas{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_proy .min_content .proyecto .status{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_proy .min_content .proyecto .metodo_cobro,.max_details_proy .min_content .proyecto .valor_hora{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center;}
+.max_details_proy .min_content .proyecto .metodo_cobro p,.max_details_proy .min_content .proyecto .valor_hora p{margin:0}
+.max_details_proy .min_content .proyecto .presupuesto{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_proy .min_content .proyecto .horas_estimadas,.max_details_proy .min_content .proyecto .duracion{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_proy .min_content .proyecto .desarrollador{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_proy .min_content .proyecto .proponer{background:#fff;border-top:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_proy .min_content .aside{display:none}
+@media screen and (min-width: 800px){.max_details_proy{background:#fff;margin:0 auto;margin-top:60px;width:80%}
+}@media screen and (min-width: 1000px){.max_details_proy{background:#fff;margin-top:60px;width:1000px;}
+.max_details_proy .min_content .proyecto{float:left;position:relative;width:97%}
+.max_details_proy .min_content .aside{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);display:inline-block;height:100%;margin-top:15px;max-height:100%;position:relative;width:30%;padding:0;overflow:hidden;border-radius:5px 5px 0 0;}
+.max_details_proy .min_content .aside .lateral_right{padding:0;}
+.max_details_proy .min_content .aside .lateral_right li{border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;list-style:none;}
+.max_details_proy .min_content .aside .lateral_right li a{color:#66757f;text-decoration:none;display:block;padding:1em .5em;}
+.max_details_proy .min_content .aside .lateral_right li a:hover{background:rgba(102,117,127,0.1);color:rgba(0,0,0,0.7)}
+}.max_details_prof{box-shadow:2px 2px 10px rgba(0,0,0,0.5);margin-top:60px;max-width:100%;overflow:hidden;}
+.max_details_prof .min_content{max-width:100%;overflow:hidden;}
+.max_details_prof .min_content .profesional{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:1em;overflow:hidden;}
+.max_details_prof .min_content .profesional .tag{display:block;margin-bottom:1em;font-weight:600;color:#66757f;margin:0}
+.max_details_prof .min_content .profesional .foto{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;}
+.max_details_prof .min_content .profesional .foto .foto_perfil{border-bottom:1px solid rgba(102,117,127,0.3);border-radius:2%;border-radius:50%;display:block;height:75px;margin:0 auto;vertical-align:top;width:75px}
+.max_details_prof .min_content .profesional .nombre{background:rgba(46,204,113,0.8);padding:.5em 0;text-align:center;}
+.max_details_prof .min_content .profesional .nombre a{color:#fff;font-size:1.1em;font-weight:700;text-decoration:none;text-transform:uppercase}
+.max_details_prof .min_content .profesional .grado_estudio{background:rgba(46,204,113,0.8);text-align:center;}
+.max_details_prof .min_content .profesional .grado_estudio a{color:#fff;text-decoration:none}
+.max_details_prof .min_content .profesional .clasificacion{background:rgba(46,204,113,0.8);padding:.5em 0;text-align:center;}
+.max_details_prof .min_content .profesional .clasificacion a{color:#f8c438;font-size:1.2em;text-decoration:none}
+.max_details_prof .min_content .profesional .categoria{background:rgba(46,204,113,0.8);border-bottom:4px solid #07aa4c;text-align:center;}
+.max_details_prof .min_content .profesional .categoria a{color:#fff;font-size:1.2em;font-weight:600;text-decoration:none}
+.max_details_prof .min_content .profesional .descripcion{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;}
+.max_details_prof .min_content .profesional .descripcion p{color:#66757f;line-height:30px;margin:0}
+.max_details_prof .min_content .profesional .habilidades{border-bottom:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center;}
+.max_details_prof .min_content .profesional .habilidades .habilidad{background:#22bce0;border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none}
+.max_details_prof .min_content .profesional .idiomas{border-bottom:1px solid rgba(102,117,127,0.3);text-align:center;padding:1em;background:#fff;}
+.max_details_prof .min_content .profesional .idiomas .idioma{border-radius:5px;color:#fff;display:inline-block;margin:.1em;padding:.2em .5em;text-decoration:none;background:rgba(231,76,60,0.8)}
+.max_details_prof .min_content .profesional .email{border-bottom:1px solid rgba(102,117,127,0.3);text-align:center;padding:1em;}
+.max_details_prof .min_content .profesional .email a{color:#66757f;text-decoration:none;padding:1em;}
+.max_details_prof .min_content .profesional .email a:hover{text-decoration:underline}
+.max_details_prof .min_content .profesional .telefono{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);text-align:center;padding:.5em;}
+.max_details_prof .min_content .profesional .telefono p{margin:0;padding:.5em}
+.max_details_prof .min_content .profesional .tiempo_experiencia{border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;text-align:center;padding:1em}
+.max_details_prof .min_content .profesional .tipo_moneda{color:#66757f;text-align:center;border-bottom:1px solid rgba(102,117,127,0.3);}
+.max_details_prof .min_content .profesional .tipo_moneda p{margin:0;padding:.5em}
+.max_details_prof .min_content .profesional .metodo_cobro{padding:.5em;border-bottom:1px solid rgba(102,117,127,0.3)}
+.max_details_prof .min_content .profesional .metodo_cobro,.max_details_prof .min_content .profesional .valor_hora{background:#fff;color:#66757f;padding:.5em;text-align:center;}
+.max_details_prof .min_content .profesional .metodo_cobro p,.max_details_prof .min_content .profesional .valor_hora p{padding:.5em;margin:0}
+.max_details_prof .min_content .profesional .pais{border-bottom:1px solid rgba(102,117,127,0.3);border-top:1px solid rgba(102,117,127,0.3);text-align:center;padding:1em;}
+.max_details_prof .min_content .profesional .pais a{color:#66757f;text-decoration:none;margin-bottom:.5em}
+.max_details_prof .min_content .profesional .proyectos_trabajados{border-bottom:1px solid rgba(102,117,127,0.3)}
+.max_details_prof .min_content .profesional .proyectos_trabajados,.max_details_prof .min_content .profesional .proyectos_publicados{background:#fff;color:#66757f;padding:.5em;text-align:center;}
+.max_details_prof .min_content .profesional .proyectos_trabajados p,.max_details_prof .min_content .profesional .proyectos_publicados p{margin:0;padding:.5em}
+.max_details_prof .min_content .profesional .contratar{border-top:1px solid rgba(102,117,127,0.3);padding:1em;text-align:center}
+.max_details_prof .min_content .aside{display:none}
+@media screen and (min-width: 800px){.max_details_prof{background:#fff;margin:0 auto;margin-top:60px;width:80%}
+}@media screen and (min-width: 1000px){.max_details_prof{background:#fff;margin-top:60px;width:1000px;}
+.max_details_prof .min_content .profesional{float:left;position:relative;width:65%}
+.max_details_prof .min_content .aside{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);display:inline-block;height:100%;margin-top:15px;max-height:100%;position:relative;width:30%;}
+.max_details_prof .min_content .aside .lateral_right{padding:0;}
+.max_details_prof .min_content .aside .lateral_right li{border-bottom:1px solid rgba(102,117,127,0.3);color:#66757f;list-style:none;}
+.max_details_prof .min_content .aside .lateral_right li a{color:#66757f;text-decoration:none;display:block;padding:1em .5em;}
+.max_details_prof .min_content .aside .lateral_right li a:hover{background:rgba(102,117,127,0.1);color:rgba(0,0,0,0.7)}
+}.max_content_about{box-shadow:2px 2px 10px rgba(0,0,0,0.5);margin-top:60px;max-width:100%;overflow:hidden;}
+.max_content_about .min_content{margin:0 auto;max-width:100%;overflow:hidden;background:#fff;}
+.max_content_about .min_content .data_team{border-radius:50px 5px 0 0;margin:0 .5em .5em .5em;}
+.max_content_about .min_content .data_team .mision,.max_content_about .min_content .data_team .vision,.max_content_about .min_content .data_team .datos_contacto{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);margin:2em .5em;}
+.max_content_about .min_content .data_team .mision h3,.max_content_about .min_content .data_team .vision h3,.max_content_about .min_content .data_team .datos_contacto h3{color:#66757f;font-size:1.2em;margin:0;padding:.5em}
+.max_content_about .min_content .data_team .mision p,.max_content_about .min_content .data_team .vision p,.max_content_about .min_content .data_team .datos_contacto p{color:#66757f;line-height:25px;padding:.5em}
+.max_content_about .min_content .data_team #mision{border-left:10px solid #008fd5;text-align:left}
+.max_content_about .min_content .data_team #vision{border-right:10px solid #2ecc71;text-align:right}
+.max_content_about .min_content .data_team #datos_contacto{border-left:10px solid #e74c3c;text-align:left}
+@media screen and (min-width: 800px){.max_content_about{margin:0 auto;margin-top:60px;width:80%;}
+.max_content_about .min_content{box-shadow:0 0 6px rgba(0,0,0,0.2)}
+}@media screen and (min-width: 1200px){.max_content_about{margin-top:60px;width:1000px}
+}.max_content_terminos{box-shadow:2px 2px 10px rgba(0,0,0,0.5);margin-top:60px;max-width:100%;overflow:hidden;}
+.max_content_terminos .min_content{margin:0 auto;max-width:100%;overflow:hidden;background:#fff;}
+.max_content_terminos .min_content .terminos{padding:.5em;}
+.max_content_terminos .min_content .terminos h1{color:#66757f;font-size:1.7em;margin:0;padding:.5em 0 0 .5em}
+.max_content_terminos .min_content .terminos .termino{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-left:10px solid #008fd5;margin:2em .5em;}
+.max_content_terminos .min_content .terminos .termino h3{color:#66757f;font-size:1.2em;margin:0;padding:.5em}
+.max_content_terminos .min_content .terminos .termino p{color:#66757f;line-height:25px;padding:.5em}
+@media screen and (min-width: 800px){.max_content_terminos{margin:0 auto;margin-top:60px;width:80%;}
+.max_content_terminos .min_content{box-shadow:0 0 6px rgba(0,0,0,0.2);}
+.max_content_terminos .min_content .terminos h1{text-align:left}
+}@media screen and (min-width: 1200px){.max_content_terminos{margin-top:60px;width:1000px}
+}.max_content_categorias{box-shadow:2px 2px 10px rgba(0,0,0,0.5);margin-top:60px;max-width:100%;overflow:hidden;}
+.max_content_categorias .min_content{background:#fff;margin:0 auto;max-width:100%;overflow:hidden;}
+.max_content_categorias .min_content .all_categorias{margin:0;overflow:hidden;}
+.max_content_categorias .min_content .all_categorias h1{color:#66757f;font-size:1.7em;margin:0;text-align:center;padding:0}
+.max_content_categorias .min_content .all_categorias .row{margin:1em auto;overflow:hidden;width:90%;}
+.max_content_categorias .min_content .all_categorias .row .box{box-shadow:0 2px 10px rgba(0,0,0,0.3);margin:.5em;max-width:100%;position:relative;width:100%;}
+.max_content_categorias .min_content .all_categorias .row .box img{width:100%}
+.max_content_categorias .min_content .all_categorias .row .box:hover{border:1px solid #000;cursor:pointer}
+.max_content_categorias .min_content .all_categorias .row .view{background:#f8c438;bottom:0;color:#66757f;font-size:1.2em;height:30px;position:absolute;right:0;text-align:center;text-decoration:none;width:30px;}
+.max_content_categorias .min_content .all_categorias .row .view:hover{color:#fff}
+.max_content_categorias .min_content .all_categorias .row .view:before{border-left:15px solid transparent;border-right:30px solid #f8c438;border-top:30px solid transparent;bottom:0;content:" ";position:absolute;right:100%}
+.max_content_categorias .min_content .all_categorias .row .view:after{border-left:15px solid transparent;border-right:30px solid #f8c438;border-top:30px solid transparent;bottom:100%;content:" ";position:absolute;right:0}
+@media screen and (min-width: 800px){.max_content_categorias{margin:0 auto;margin-top:60px;width:80%;}
+.max_content_categorias .min_content{box-shadow:0 0 6px rgba(0,0,0,0.2);}
+.max_content_categorias .min_content .all_categorias{padding:.5em 0;}
+.max_content_categorias .min_content .all_categorias h1{text-align:left;padding-left:2.2em}
+}@media screen and (min-width: 1200px){.max_content_categorias{margin-top:60px;width:1000px}
+}.max_content_subir_foto{margin-top:60px;}
+.max_content_subir_foto .min_content{overflow:hidden;padding-top:.2px;}
+.max_content_subir_foto .min_content .box{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin:0 auto;margin-bottom:6em;margin-top:1em;position:relative;width:95%;}
+.max_content_subir_foto .min_content .box .top_cont h3{background:#2ecc71;border-bottom:4px solid #07aa4c;border-radius:5px 5px 0 0;box-shadow:0 0 6px rgba(0,0,0,0.3);color:#fff;margin:0;padding:.5em;text-align:center;font-weight:500}
+.max_content_subir_foto .min_content .box .middle_cont{margin:0 auto;max-width:100%;min-height:160px;padding-top:3em;position:relative;width:100%;text-align:center;overflow:hidden;}
+.max_content_subir_foto .min_content .box .middle_cont .row{margin-bottom:1em;}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12{padding-left:15px;}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12 .foto{background:#f8f8f8;width:100px;height:100px;border:1px solid #66757f;margin:0 auto;position:relative;}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12 .foto img{width:100%;max-width:100%}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12 .into{margin:2em;text-align:center;}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12 .into input{border:0;border-radius:2px;color:rgba(0,0,0,0.8);font-weight:500;background:#f8f8f8;text-decoration:underline;display:block;}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12 .into input:hover{font-weight:600}
+.max_content_subir_foto .min_content .box .middle_cont .row .col-lg-12 .into p{color:#66757f}
+.max_content_subir_foto .min_content .box .bottom_cont{background:rgba(102,117,127,0.3);border-top:1px solid #66757f;padding:2em 0;text-align:center;}
+.max_content_subir_foto .min_content .box .bottom_cont .update_photo{background:#008fd5;border:0;border-bottom:4px solid #076a9a;border-radius:2px;color:#fff;padding:.5em 1em;text-decoration:none;margin:1em;}
+.max_content_subir_foto .min_content .box .bottom_cont .update_photo:hover{background:rgba(0,143,213,0.8)}
+.max_content_subir_foto .min_content .box .last_cont{background:rgba(102,117,127,0.08);text-align:center;}
+.max_content_subir_foto .min_content .box .last_cont .registro,.max_content_subir_foto .min_content .box .last_cont .forget_pass{color:#66757f;display:block;padding:.2em;text-decoration:none;}
+.max_content_subir_foto .min_content .box .last_cont .registro:before,.max_content_subir_foto .min_content .box .last_cont .forget_pass:before{content:"|"}
+.max_content_subir_foto .min_content .box .last_cont .registro:after,.max_content_subir_foto .min_content .box .last_cont .forget_pass:after{content:"|"}
+.max_content_subir_foto .min_content .box .last_cont .registro:hover,.max_content_subir_foto .min_content .box .last_cont .forget_pass:hover{color:#000}
+@media screen and (min-width:480px){.max_content_subir_foto{margin-top:60px;}
+.max_content_subir_foto .min_content{background:#fff;}
+.max_content_subir_foto .min_content .box{margin:0 auto;margin-bottom:3.5em;margin-top:3.5em;width:80%}
+}@media screen and (min-width:800px){.max_content_subir_foto{margin-top:60px;}
+.max_content_subir_foto .min_content{box-shadow:2px 0 10px rgba(0,0,0,0.5);margin:0 auto;width:80%;}
+.max_content_subir_foto .min_content .box{width:60%;}
+.max_content_subir_foto .min_content .box .middle_cont{max-width:80%}
+.max_content_subir_foto .min_content .box .last_cont .registro,.max_content_subir_foto .min_content .box .last_cont .forget_pass{display:inline-block;padding:.5em}
+}@media screen and (min-width:1200px){.max_content_subir_foto{margin-top:60px;}
+.max_content_subir_foto .min_content{width:1000px;}
+.max_content_subir_foto .min_content .box{width:50%}
+}.boton_rojo{background:rgba(231,76,60,0.8);border-radius:3px;color:#fff;display:inline-block;font-size:1.1em;margin:.5em 0;padding:.5em 1.5em;text-decoration:none;}
+.boton_rojo:hover{background:rgba(231,76,60,0.6)}
+.boton_azul{background:#008fd5;border-radius:2px;color:#fff;display:inline-block;font-size:1.1em;margin:.5em 0;padding:.5em 2em;text-decoration:none;}
+.boton_azul:hover{background:rgba(0,143,213,0.9)}
+.boton_cancelar{background:#e74c3c;border-radius:2px;color:#fff;display:inline-block;font-size:1.1em;margin:.5em 0;padding:.5em 2em;text-decoration:none;}
+.boton_cancelar:hover{background:rgba(231,76,60,0.9)}
+.btn-rojo{background:#e74c3c;border-radius:1px;padding:.8em}
+.btn-azul{background:#008fd5;border-radius:1.5px;padding:.8em}
+.btn-verde{background:#2ecc71;border-radius:1.5px;padding:.8em}
+.btn-amarillo{background:#f8c438;border-radius:1.5px;padding:.8em;text-align:center}
+.input_normal{background-color:#fff;border:1px solid #b5b5b5;border-radius:3px;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;box-sizing:border-box;color:#66757f;margin-bottom:1em;outline:0;padding:10px;width:240px}
+.input_mini{background-color:#fff;border:1px solid #b5b5b5;border-radius:3px;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;box-sizing:border-box;color:#66757f;margin-bottom:1em;outline:0;padding:10px;width:50px}
+.text_area{background-color:#fff;border:1px solid #b5b5b5;border-radius:3px;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;box-sizing:border-box;color:#66757f;font-size:14px;height:150px;line-height:20px;margin:0 1em 1em 1em;max-width:90%;resize:none;width:450px}
+.radio{margin-bottom:.5em;width:50px}
+.foto_perfil{position:relative;}
+.foto_perfil .foto{border-bottom:1px solid rgba(102,117,127,0.3);border-radius:50%;display:block;height:75px;margin:0 auto;vertical-align:top;width:75px}
+.saber_mas{background:#fff;border-bottom:1px solid rgba(102,117,127,0.3);padding:.2em;text-align:center;}
+.saber_mas a{color:#66757f;padding:.5em;text-decoration:none;}
+.saber_mas a:hover{text-decoration:underline}
+.display_block{display:block}
+.display_inline_block{display:inline-block}
+.display_none{display:none}
+.ver_registro{background:#e74c3c;}
+.ver_registro a:before{content:">"}
+.ruta{background:rgba(128,128,128,0.1);border-bottom:1px solid rgba(102,117,127,0.6);}
+.ruta .raiz{color:rgba(102,117,127,0.5);margin:0;padding:.5em;}
+.ruta .raiz a{color:#66757f;text-decoration:none}
+.buscador{background:rgba(128,128,128,0.4);border-bottom:4px solid rgba(128,128,128,0.5);margin-bottom:1em;max-width:100%;padding:.5em;text-align:center;}
+.buscador .elementos{position:relative;text-align:center;}
+.buscador .elementos .search{background-color:#f6f6f6;border:1px solid #b5b5b5;box-shadow:0 0 10px rgba(204,204,204,0.5) inset;box-sizing:border-box;margin:0 auto;padding:7px 0;width:73%;display:inline-block;vertical-align:middle;}
+.buscador .elementos .search:before{color:#808080;content:"";margin-left:.3em;vertical-align:top}
+.buscador .elementos .input_search{background:#f6f6f6;border:0;border-radius:2px;color:#808080;width:99%;}
+.buscador .elementos .input_search:focus{outline:0}
+.buscador .elementos .buscar{background:rgba(0,143,213,0.8);box-shadow:2px 2px 10px rgba(0,0,0,0.3);color:#fff;padding:8px .8em;text-decoration:none;border-radius:3px;margin-bottom:1em;vertical-align:middle;}
+.buscador .elementos .buscar:hover{background:rgba(0,143,213,0.6)}
+.aside{background:#f8f8f8;border:1px solid rgba(102,117,127,0.6);border-radius:5px 5px 0 0;margin-bottom:1em;margin-right:.5em;margin-top:0;overflow:hidden;width:29%;padding:0;}
+.aside .categorias{padding:.5em;}
+.aside .categorias .categoria{display:block;margin-bottom:1em;}
+.aside .categorias .categoria ul{padding:0;}
+.aside .categorias .categoria ul li{list-style:none;color:rgba(0,0,0,0.7);line-height:25px;font-weight:500}
+.aside .categorias .categoria .tittle_cat{border-bottom:2px solid rgba(102,117,127,0.5);color:#66757f;font-size:1.2em;font-weight:700;padding-right:1em;text-align:right;text-transform:uppercase;width:100%;margin:0;}
+.aside .categorias .categoria .tittle_cat a,.aside .categorias .categoria .tittle_cat strong{font-size:12px;text-decoration:none;text-transform:capitalize}
+.aside .categorias .categoria .check{background:#808080;display:inline-block;width:40px}
